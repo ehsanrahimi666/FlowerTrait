@@ -1,0 +1,118 @@
+---
+title: "FlowerTrait: flower traits from field photographs"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{FlowerTrait: flower traits from field photographs}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(collapse = TRUE, comment = "#>", fig.width = 7, fig.height = 4.5)
+```
+
+FlowerTrait measures colour, pattern, symmetry and shape traits of flowers in
+field photographs. This vignette runs without Python: it uses the example
+photographs shipped with the package, the outlines produced by the back end and
+the validation data.
+
+```{r}
+library(FlowerTrait)
+ex <- ft_example_photos()
+ex[, c("photo_id", "species", "country", "license", "rights_holder")]
+```
+
+## Outlines and core traits in R
+
+The back end finds the main flower, crops it and outlines it with SAM 2.1. The
+crops and outlines of the example photographs are included, so the core traits
+can be computed in R alone.
+
+```{r, fig.height = 3.5}
+op <- par(mfrow = c(1, 4))
+for (i in 1:4) ft_plot_outline(ex$crop[i], ex$mask[i], main = ex$species[i])
+par(op)
+tr <- ft_traits(ex$crop, ex$mask)
+tr[, c("photo_id", "L_mean", "C_mean", "colour_name", "centre_dL", "petal_n", "sym_rotational")]
+```
+
+`colour_name` names the colour of the petal periphery. `centre_dL` is the
+lightness of the centre minus that of the petals (negative for a dark centre),
+and `petal_n`, `lobe_depth` and `sym_rotational` describe the outline seen
+face-on.
+
+```{r, fig.height = 3.5}
+ft_plot_symmetry(ex$crop[2], ex$mask[2])
+```
+
+## Decisions of the photo filter
+
+`ft_example_results()` holds the back-end output for the example photographs.
+The default rule keeps photographs with a good outline that the photo filter
+rates as usable (an open flower, entirely visible and sharp).
+
+```{r}
+res <- ft_example_results()
+summary(res)
+res[, c("photo_id", "species", "keep", "reason", "p_usable", "p_face_view")]
+```
+
+```{r, fig.height = 4.5}
+ft_contact_sheet(res, ncol = 4)
+```
+
+## How far can each trait be trusted?
+
+```{r}
+table(ft_catalogue$family, ft_catalogue$verdict)
+ft_trait_info(c("L_mean", "C_mean", "hue_deg", "centre_dL", "petal_n", "sym_rotational"))
+```
+
+Repeatability can be estimated for any table with several photographs per
+observation:
+
+```{r, fig.height = 3.5}
+v <- ft_filter(ft_validation, "default")
+r <- ft_repeatability(v[v$keep, ], traits = c("L_mean", "C_mean", "petal_L", "centre_dL", "sym_bilateral"),
+                      boot = 50)
+ft_plot_repeatability(r)
+```
+
+## Photo colour against reflectance spectra
+
+`ft_reference` compares, for each validation species, the median petal colour
+of its photographs with the colour computed from published reflectance
+spectra with `ft_spectra_to_lab()`.
+
+```{r, fig.height = 4}
+rf <- ft_reference[!is.na(ft_reference$photo_L), ]
+op <- par(mfrow = c(1, 3), mar = c(4, 4, 2, 1))
+plot(rf$ref_L, rf$photo_L, xlab = "L* (spectra)", ylab = "L* (photos)", pch = 19, col = "#4A6FA5")
+abline(0, 1, lty = 2)
+plot(rf$ref_a, rf$photo_a, xlab = "a* (spectra)", ylab = "a* (photos)", pch = 19, col = "#C0504D")
+abline(0, 1, lty = 2)
+plot(rf$ref_b, rf$photo_b, xlab = "b* (spectra)", ylab = "b* (photos)", pch = 19, col = "#E8A317")
+abline(0, 1, lty = 2)
+par(op)
+table(spectra = rf$ref_name, photos = rf$photo_name)
+```
+
+Photographs rank the species much as the spectra do, especially for *b*\* and
+chroma, but petals look lighter in photographs than in spectra (most points
+lie above the 1:1 line for *L*\*), because cameras expose each scene to look
+bright. Compare photographs with each other rather than with spectra, and use
+spectra or calibrated photographs for absolute colour or pollinator vision.
+
+## A complete analysis with the back end
+
+```{r, eval = FALSE}
+ft_install()                                   # once
+ft_use_backend()                               # each session
+ph <- ft_gbif_photos("Papaver rhoeas", n = 200, country = c("DE", "FR"))
+ph <- ft_download_photos(ph, dir = "PATH_TO_PHOTO_FOLDER")
+res <- ft_process(ph, out_dir = "PATH_TO_OUTPUT_FOLDER")
+face <- res[res$keep & res$view %in% "face", ]
+ft_summarise(face, by = "country", traits = ft_reliable_traits())
+ft_plot_colours(res, group = "country")
+writeLines(ft_attribution(ph), "attribution.txt")
+```

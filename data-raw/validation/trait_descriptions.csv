@@ -1,0 +1,82 @@
+trait,family,type,computed_by,description
+L_mean,colour,numeric,R and Python,Mean CIELAB lightness L* of flower pixels (0-100).
+L_sd,colour,numeric,R and Python,Standard deviation of L* across flower pixels.
+C_mean,colour,numeric,R and Python,Mean CIELAB chroma C*ab = sqrt(a*^2 + b*^2).
+a_mean,colour,numeric,R and Python,Mean a* (green-red axis).
+b_mean,colour,numeric,R and Python,Mean b* (blue-yellow axis).
+hue_deg,colour,numeric,R and Python,Chroma-weighted circular mean hue angle h_ab (degrees).
+hue_conc,colour,numeric,R and Python,Length of the chroma-weighted mean hue vector (0-1); 1 means a single hue.
+vap_wp,colour,numeric,R and Python,"1 - min(1, mean luminance Y of the flower / 99th percentile of Y in the crop); higher is darker."
+dark_frac_otsu,colour,numeric,R and Python,Fraction of flower pixels at or below the Otsu threshold of L*.
+petal_L,colour,numeric,R and Python,Mean L* of the petal periphery (relative radius > 0.6).
+petal_a,colour,numeric,R and Python,Mean a* of the petal periphery.
+petal_b,colour,numeric,R and Python,Mean b* of the petal periphery.
+colour_name,colour,categorical,R and Python,Colour name of the petal periphery (ft_colour_name()); categorical.
+L_entropy,pattern,numeric,R and Python,Shannon entropy (bits) of the L* histogram (50 bins over 0-100).
+centre_dL,pattern,numeric,R and Python,L* of the flower centre (relative radius < 0.3) minus L* of the petal periphery; negative values mean a dark centre.
+centre_dE,pattern,numeric,R and Python,CIEDE2000 colour difference between the flower centre and the petal periphery.
+sym_bilateral,symmetry,numeric,R and Python,IoU between the working outline and its mirror image about the best axis through the centroid.
+sym_rotational,symmetry,numeric,R and Python,IoU between the working outline and a copy rotated by one petal (360 / petal_n degrees).
+petal_n,symmetry,numeric,R and Python,"Dominant harmonic (3-24) of the outline radius function: number of petals, lobes or ray florets; meaningful for face views."
+lobe_depth,symmetry,numeric,R and Python,Amplitude of the petal harmonic relative to the mean radius (about 0 for entire outlines).
+radius_cv,shape,numeric,R and Python,Coefficient of variation of the outline radius over 360 rays from the centroid.
+fill_circle,shape,numeric,R and Python,Outline area / area of the circle (centred on the centroid) through the farthest outline point.
+aspect,shape,numeric,R and Python,Square root of the ratio of the two principal second moments of the working outline.
+solidity_shape,shape,numeric,R and Python,Working-outline area / area of its convex hull.
+L_median,colour,numeric,Python,Median L*.
+L_p10,colour,numeric,Python,10th percentile of L*.
+L_p90,colour,numeric,Python,90th percentile of L*.
+L_range,colour,numeric,Python,L_p90 - L_p10.
+C_p90,colour,numeric,Python,90th percentile of chroma.
+chrom_r,colour,numeric,Python,Mean chromaticity R / (R + G + B) in linear RGB.
+chrom_g,colour,numeric,Python,Mean chromaticity G / (R + G + B) in linear RGB.
+chrom_b,colour,numeric,Python,Mean chromaticity B / (R + G + B) in linear RGB.
+logchrom_rg,colour,numeric,Python,Mean log(R / G) in linear RGB.
+logchrom_bg,colour,numeric,Python,Mean log(B / G) in linear RGB.
+Y_mean,colour,numeric,Python,"Mean relative luminance Y (linear RGB, Rec. 709 weights)."
+vap,colour,numeric,Python,1 - Y_mean (same information as Y_mean).
+dark_frac_L30,colour,numeric,Python,Fraction of flower pixels with L* < 30.
+L_otsu,colour,numeric,Python,Otsu threshold of L* within the flower.
+tone_bimodality,colour,numeric,Python,Between-class / total variance of L* at the Otsu split (0-1).
+darkness_cw,colour,numeric,Python,"Weighted mean of (1 - Y), weights exp(-d / 0.25D), d = distance to the centroid (centre-weighted darkness)."
+bg_dE00,colour,numeric,Python,CIEDE2000 difference between the mean flower colour and a surrounding background ring (0.15D wide).
+bg_weber_Y,colour,numeric,Python,Weber luminance contrast (Y_flower - Y_ring) / Y_ring.
+n_colour_classes,colour,numeric,Python,"Number of colour classes (k-means, k = 6, in CIELAB; classes closer than dE00 = 10 merged, classes < 3% absorbed)."
+colour_shannon,colour,numeric,Python,Shannon diversity of colour-class areas.
+colour_simpson,colour,numeric,Python,Simpson diversity (1 - sum p^2) of colour-class areas.
+colour_contrast_dE,colour,numeric,Python,Area-weighted mean pairwise CIEDE2000 difference between colour classes.
+colour_max_dE,colour,numeric,Python,Largest pairwise CIEDE2000 difference between colour classes.
+dark_class_frac,colour,numeric,Python,Area share of the darkest colour class.
+dark_class_L,colour,numeric,Python,L* of the darkest colour class.
+dominant_frac,colour,numeric,Python,Area share of the largest colour class.
+dominant_L,colour,numeric,Python,L* of the largest colour class.
+dominant_C,colour,numeric,Python,Chroma of the largest colour class.
+dominant_hue,colour,numeric,Python,Hue angle of the largest colour class (degrees).
+dominant_name,colour,categorical,Python,Colour name of the largest colour class (ft_colour_name()); categorical.
+edge_density,pattern,numeric,Python,"Canny edges (40/100) of L* inside the eroded mask per pixel, multiplied by D."
+gran_D2,pattern,numeric,Python,Band-pass RMS lightness contrast at scale about D/2 (granularity).
+gran_D4,pattern,numeric,Python,Band-pass RMS lightness contrast at scale about D/4.
+gran_D8,pattern,numeric,Python,Band-pass RMS lightness contrast at scale about D/8.
+gran_D16,pattern,numeric,Python,Band-pass RMS lightness contrast at scale about D/16.
+gran_D32,pattern,numeric,Python,Band-pass RMS lightness contrast at scale about D/32.
+gran_D64,pattern,numeric,Python,Band-pass RMS lightness contrast at scale about D/64.
+gran_total,pattern,numeric,Python,Sum of the six granularity band energies.
+gran_slope,pattern,numeric,Python,Slope of log2 band energy against log2 spatial frequency.
+gran_peak_D,pattern,numeric,Python,Scale n (in D/n) of the band with the highest energy.
+gran_peak_prop,pattern,numeric,Python,Share of the total band energy in the peak band.
+glcm_contrast,pattern,numeric,Python,"GLCM contrast of L* quantised to 8 within-flower quantile levels (offset about D/32, 4 directions)."
+glcm_homogeneity,pattern,numeric,Python,GLCM homogeneity (same quantisation and offsets).
+glcm_energy,pattern,numeric,Python,GLCM energy (angular second moment).
+glcm_correlation,pattern,numeric,Python,GLCM correlation.
+pattern_fd,pattern,numeric,Python,Box-counting fractal dimension of colour-class boundaries.
+land_n_patches,pattern,numeric,Python,"Number of colour-class patches (8-connected, area >= (D/50)^2 px)."
+land_LPI,pattern,numeric,Python,Largest patch area / flower area.
+land_mean_patch_frac,pattern,numeric,Python,Mean patch area / flower area.
+land_edge_density,pattern,numeric,Python,"Length of colour-class boundaries per flower area, multiplied by D."
+land_AI,pattern,numeric,Python,"Aggregation index of the colour-class map, area-weighted over classes."
+land_contag,pattern,numeric,Python,Contagion index of the colour-class map.
+moran_I,pattern,numeric,Python,Moran's I of L* on a grid of cells about D/16 wide (rook neighbours).
+shape_circularity,shape,numeric,Python,4 pi A / P^2 of the outline.
+shape_solidity,shape,numeric,Python,Outline area / convex hull area.
+shape_aspect,shape,numeric,Python,Square root of the ratio of the two principal second moments of the mask.
+shape_roughness,shape,numeric,Python,Outline perimeter / perimeter of the Gaussian-smoothed outline.

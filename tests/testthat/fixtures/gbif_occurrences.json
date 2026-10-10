@@ -1,0 +1,175 @@
+{
+"results": [
+{
+"key": 5938274759,
+"species": "Papaver rhoeas",
+"family": "Papaveraceae",
+"order": "Ranunculales",
+"countryCode": "NZ",
+"year": 2026,
+"eventDate": "2026-01-01T13:53",
+"decimalLatitude": -43.953349,
+"decimalLongitude": -176.555562,
+"reproductiveCondition": "flowers",
+"media": [
+{
+"type": "StillImage",
+"format": "image/jpeg",
+"references": "https://www.inaturalist.org/photos/604359941",
+"created": "2026-01-01T21:53:21.000+00:00",
+"creator": "Peter de Lange",
+"publisher": "iNaturalist",
+"license": "http://creativecommons.org/publicdomain/zero/1.0/",
+"rightsHolder": "Peter de Lange",
+"identifier": "https://inaturalist-open-data.s3.amazonaws.com/photos/604359941/original.jpg"
+},
+{
+"type": "StillImage",
+"format": "image/jpeg",
+"references": "https://www.inaturalist.org/photos/604359919",
+"created": "2026-01-01T21:53:09.000+00:00",
+"creator": "Peter de Lange",
+"publisher": "iNaturalist",
+"license": "http://creativecommons.org/publicdomain/zero/1.0/",
+"rightsHolder": "Peter de Lange",
+"identifier": "https://inaturalist-open-data.s3.amazonaws.com/photos/604359919/original.jpg"
+}
+]
+},
+{
+"key": 6251609228,
+"species": "Papaver rhoeas",
+"family": "Papaveraceae",
+"order": "Ranunculales",
+"countryCode": "NZ",
+"year": 2026,
+"eventDate": "2026-01-27T13:46",
+"decimalLatitude": -43.543267,
+"decimalLongitude": 172.609925,
+"reproductiveCondition": "flowers",
+"media": [
+{
+"type": "StillImage",
+"format": "image/jpeg",
+"references": "https://www.inaturalist.org/photos/611396561",
+"created": "2026-01-27T21:46:17.000+00:00",
+"creator": "mikoikoi",
+"publisher": "iNaturalist",
+"license": "http://creativecommons.org/publicdomain/zero/1.0/",
+"rightsHolder": "mikoikoi",
+"identifier": "https://inaturalist-open-data.s3.amazonaws.com/photos/611396561/original.jpg"
+}
+]
+},
+{
+"key": 6162771791,
+"species": "Papaver rhoeas",
+"family": "Papaveraceae",
+"order": "Ranunculales",
+"countryCode": "FR",
+"year": 2026,
+"eventDate": "2026-02-21T13:58",
+"decimalLatitude": 43.121707,
+"decimalLongitude": 6.195938,
+"reproductiveCondition": "flowers",
+"media": [
+{
+"type": "StillImage",
+"format": "image/jpeg",
+"references": "https://www.inaturalist.org/photos/617907499",
+"created": "2026-02-21T21:58:55.000+00:00",
+"creator": "Adrian Matala",
+"publisher": "iNaturalist",
+"license": "http://creativecommons.org/licenses/by-nc/4.0/",
+"rightsHolder": "Adrian Matala",
+"identifier": "https://inaturalist-open-data.s3.amazonaws.com/photos/617907499/original.jpg"
+},
+{
+"type": "StillImage",
+"format": "image/jpeg",
+"references": "https://www.inaturalist.org/photos/617906905",
+"created": "2026-02-21T21:58:55.000+00:00",
+"creator": "Adrian Matala",
+"publisher": "iNaturalist",
+"license": "http://creativecommons.org/licenses/by-nc/4.0/",
+"rightsHolder": "Adrian Matala",
+"identifier": "https://inaturalist-open-data.s3.amazonaws.com/photos/617906905/original.jpg"
+}
+]
+},
+{
+"key": 6185131684,
+"species": "Papaver rhoeas",
+"family": "Papaveraceae",
+"order": "Ranunculales",
+"countryCode": "NZ",
+"year": 2026,
+"eventDate": "2026-02-07T08:06:02",
+"decimalLatitude": -42.512209,
+"decimalLongitude": 172.828683,
+"reproductiveCondition": null,
+"media": [
+{
+"type": "StillImage",
+"format": "image/jpeg",
+"references": "https://www.inaturalist.org/photos/613692451",
+"created": "2026-02-07T16:06:05.000+00:00",
+"creator": "Heidi Meudt",
+"publisher": "iNaturalist",
+"license": "http://creativecommons.org/licenses/by/4.0/",
+"rightsHolder": "Heidi Meudt",
+"identifier": "https://inaturalist-open-data.s3.amazonaws.com/photos/613692451/original.jpg"
+},
+{
+"type": "StillImage",
+"format": "image/jpeg",
+"references": "https://www.inaturalist.org/photos/613692469",
+"created": "2026-02-07T16:06:16.000+00:00",
+"creator": "Heidi Meudt",
+"publisher": "iNaturalist",
+"license": "http://creativecommons.org/licenses/by/4.0/",
+"rightsHolder": "Heidi Meudt",
+"identifier": "https://inaturalist-open-data.s3.amazonaws.com/photos/613692469/original.jpg"
+}
+]
+},
+{
+"key": 6179309300,
+"species": "Papaver rhoeas",
+"family": "Papaveraceae",
+"order": "Ranunculales",
+"countryCode": "GR",
+"year": 2026,
+"eventDate": "2026-03-02T11:35:13",
+"decimalLatitude": 36.446878,
+"decimalLongitude": 28.226413,
+"reproductiveCondition": "fruits or seeds",
+"media": [
+{
+"type": "StillImage",
+"format": "image/jpeg",
+"references": "https://www.inaturalist.org/photos/620797941",
+"created": "2026-03-02T09:35:13.000+00:00",
+"creator": "Cindy Bell",
+"publisher": "iNaturalist",
+"license": "http://creativecommons.org/licenses/by/4.0/",
+"rightsHolder": "Cindy Bell",
+"identifier": "https://inaturalist-open-data.s3.amazonaws.com/photos/620797941/original.jpg"
+},
+{
+"type": "StillImage",
+"format": "image/jpeg",
+"references": "https://www.inaturalist.org/photos/620797994",
+"created": "2026-03-02T09:35:13.000+00:00",
+"creator": "Cindy Bell",
+"publisher": "iNaturalist",
+"license": "http://creativecommons.org/licenses/by/4.0/",
+"rightsHolder": "Cindy Bell",
+"identifier": "https://inaturalist-open-data.s3.amazonaws.com/photos/620797994/original.jpg"
+}
+]
+}
+],
+"endOfRecords": true,
+"count": 5
+}

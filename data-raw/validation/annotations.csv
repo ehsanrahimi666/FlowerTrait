@@ -1,0 +1,3 @@
+"measure","auc","n_flowering","n_not_flowering","kept_default_flowering","kept_default_not_flowering","not_flowering_annotations"
+"p_open_flower",0.859566110168735,487,46,0.747433264887064,0.391304347826087,"flower buds: 24; fruits or seeds: 21; fruits or seeds|flower buds: 1"
+"p_usable",0.739800017855549,487,46,0.747433264887064,0.391304347826087,"flower buds: 24; fruits or seeds: 21; fruits or seeds|flower buds: 1"

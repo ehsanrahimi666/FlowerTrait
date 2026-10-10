@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "FlowerTrait: Colour, Pattern, Symmetry and Shape Traits of Flowers from Photographs"
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - family-names: Rahimi
+    given-names: Ehsan
+    orcid: "https://orcid.org/0000-0002-8401-472X"
+  - family-names: Jung
+    given-names: Chuleui
+version: 0.1.0
+license: GPL-3.0-or-later
+repository-code: "https://github.com/ehsanrahimi666/FlowerTrait"
+abstract: >-
+  An R package with an optional Python back end that detects and outlines
+  the main flower in field photographs, screens photos with a photo filter and
+  computes colour, colour-name, radial-pattern, symmetry, petal-number and shape
+  traits with a catalogue of their reliability. Validated against manual
+  outlines and floral reflectance spectra.

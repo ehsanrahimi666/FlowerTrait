@@ -1,0 +1,42 @@
+test_that("plots draw without errors", {
+  grDevices::pdf(NULL)
+  on.exit(grDevices::dev.off())
+  ex <- ft_example_photos()
+  expect_null(ft_plot_outline(ex$crop[1], ex$mask[1], main = "x"))
+  expect_null(ft_plot_outline(ex$photo[1]))
+  res <- ft_example_results()
+  drawn <- ft_contact_sheet(res, ncol = 4)
+  expect_equal(nrow(drawn), nrow(res))
+  v <- ft_filter(ft_validation, "default")
+  d <- ft_plot_traits(v[v$keep, ], "C_mean", group = "region")
+  expect_gt(nrow(d), 10)
+  r <- ft_repeatability(v[v$keep, ], traits = c("L_mean", "C_mean"), boot = 5)
+  expect_equal(ft_plot_repeatability(r), r[order(r$icc), ])
+  pc <- ft_plot_colours(v[v$keep, ], group = "region")
+  expect_true(all(c("group", "hex", "name") %in% names(pc)))
+  expect_true(all(pc$name %in% c("white", "grey", "black", "pink", "red", "orange", "brown", "yellow",
+                                 "green", "blue", "purple")))
+  sy <- ft_plot_symmetry(ex$crop[1], ex$mask[1])
+  expect_s3_class(sy, "data.frame")
+  expect_equal(nrow(sy), 1)
+})
+
+test_that("contact sheet can be written to a file", {
+  f <- tempfile(fileext = ".png")
+  ft_contact_sheet(ft_example_results(), ncol = 4, file = f)
+  expect_true(file.exists(f))
+  expect_gt(file.size(f), 1000)
+})
+
+test_that("summaries use circular means for hue", {
+  x <- data.frame(species = c("a", "a", "b"), hue_deg = c(350, 10, 90), L_mean = c(1, 3, 5),
+                  keep = TRUE)
+  s <- ft_summarise(x, traits = c("hue_deg", "L_mean"))
+  expect_equal(s$n, c(2, 1))
+  expect_equal(s$hue_deg_mean[1] %% 360, 0, tolerance = 1e-8)
+  expect_equal(s$L_mean_mean, c(2, 5))
+  v <- ft_filter(ft_validation, "default")
+  s2 <- ft_summarise(v, "region")
+  expect_equal(sum(s2$n), sum(v$keep))
+  expect_error(ft_summarise(x, "nope"), "not found")
+})

@@ -1,0 +1,32 @@
+test_that("masks round-trip through PNG and file types are detected", {
+  m <- matrix(FALSE, 30, 40)
+  m[5:20, 10:30] <- TRUE
+  f <- tempfile(fileext = ".png")
+  ft_write_mask(m, f)
+  expect_identical(ft_read_mask(f), m)
+  img <- array(runif(30 * 40 * 3), c(30, 40, 3))
+  fj <- tempfile(fileext = ".jpg")
+  jpeg::writeJPEG(img, fj, quality = 1)
+  x <- ft_read_image(fj)
+  expect_equal(dim(x), c(30, 40, 3))
+  expect_true(all(x >= 0 & x <= 255))
+  expect_equal(dim(ft_read_image(fj, max_side = 20)), c(15, 20, 3))
+  fp <- tempfile(fileext = ".jpg")  # PNG content with a .jpg name
+  png::writePNG(img, fp)
+  expect_equal(dim(ft_read_image(fp)), c(30, 40, 3))
+  expect_error(ft_read_image(tempfile()), "not found")
+  bad <- tempfile(fileext = ".png")
+  writeLines("text", bad)
+  expect_error(ft_read_image(bad), "JPEG and PNG")
+  expect_error(ft_write_mask(1:3, f), "matrix")
+})
+
+test_that("grey and alpha images become RGB arrays", {
+  g <- matrix(runif(100), 10, 10)
+  f <- tempfile(fileext = ".png")
+  png::writePNG(g, f)
+  expect_equal(dim(ft_read_image(f)), c(10, 10, 3))
+  ga <- array(runif(10 * 10 * 4), c(10, 10, 4))
+  png::writePNG(ga, f)
+  expect_equal(dim(ft_read_image(f)), c(10, 10, 3))
+})

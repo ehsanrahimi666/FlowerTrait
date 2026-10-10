@@ -1,0 +1,769 @@
+image,cls,detector,two_stage,segmenter,det_score,stab,px,mask_ok,sec_detect,sec_segment,iou,precision,recall,n_gt
+image_0242,Bluebell,gdino_b,False,sam2.1_b,0.5282,0.45752,136832,True,7.52753,8.08202,0.16709,0.63329,1.0,5
+image_0242,Bluebell,gdino_b,True,grabcut,0.52163,,110590,True,27.80508,0.62656,0.18738,0.67412,1.0,5
+image_0242,Bluebell,gdino_b,True,sam2.1_b,0.52163,0.43119,140516,True,27.80508,7.18224,0.16814,0.6357,1.0,5
+image_0242,Bluebell,gdino_b,True,sam2.1_s,0.52163,0.63618,81799,True,27.80508,4.57944,0.27473,0.845,1.0,5
+image_0242,Bluebell,gdino_b,True,sam2.1_t,0.52163,0.1872,23642,True,27.80508,3.75346,0.98991,0.99481,0.99748,5
+image_0242,Bluebell,none,False,grabcut,0.0,,79090,True,0.0,0.85333,0.25671,0.61825,0.99992,5
+image_0242,Bluebell,none,False,sam2.1_b,0.0,0.62088,103320,True,0.0,6.99693,0.19589,0.73206,1.0,5
+image_0242,Bluebell,owlv2_b,True,sam2.1_b,0.42439,0.68737,99072,True,19.32178,9.20159,0.20922,0.79046,1.0,5
+image_0263,Bluebell,gdino_b,False,sam2.1_b,0.53797,0.56955,48365,True,6.33856,7.44114,0.50648,0.8456,0.99209,3
+image_0263,Bluebell,gdino_b,True,grabcut,0.53176,,96807,True,23.27091,0.24634,0.25544,0.65277,0.99921,3
+image_0263,Bluebell,gdino_b,True,sam2.1_b,0.53176,0.6671,58510,True,23.27091,7.06496,0.42872,0.78543,0.99203,3
+image_0263,Bluebell,gdino_b,True,sam2.1_s,0.53176,0.18971,80486,True,23.27091,4.06971,0.31231,0.80433,0.99124,3
+image_0263,Bluebell,gdino_b,True,sam2.1_t,0.53176,0.80895,91872,True,23.27091,3.66866,0.2757,0.70479,0.99989,3
+image_0263,Bluebell,none,False,grabcut,0.0,,96650,True,0.0,0.52291,0.25565,0.65376,0.99853,3
+image_0263,Bluebell,none,False,sam2.1_b,0.0,0.0,10807,True,0.0,8.17945,0.0,0.0,0.0,3
+image_0263,Bluebell,owlv2_b,True,sam2.1_b,0.62073,0.63241,21570,True,19.493,7.05415,0.06461,0.11436,0.12934,3
+image_0264,Bluebell,gdino_b,False,sam2.1_b,0.47752,0.77183,168790,False,10.50631,10.80017,0.17297,0.72716,1.0,8
+image_0264,Bluebell,gdino_b,True,grabcut,0.47458,,226636,False,42.13315,0.66636,0.12071,0.50812,1.0,8
+image_0264,Bluebell,gdino_b,True,sam2.1_b,0.47458,0.78766,168837,False,42.13315,10.68386,0.17294,0.72702,1.0,8
+image_0264,Bluebell,gdino_b,True,sam2.1_s,0.47458,0.16783,163143,False,42.13315,6.4094,0.18066,0.75943,1.0,8
+image_0264,Bluebell,gdino_b,True,sam2.1_t,0.47458,0.41463,163748,False,42.13315,5.7391,0.18044,0.75857,1.0,8
+image_0264,Bluebell,none,False,grabcut,0.0,,136113,True,0.0,1.22437,0.2138,0.67392,0.99995,8
+image_0264,Bluebell,none,False,sam2.1_b,0.0,0.0,170133,True,0.0,11.3713,0.1719,0.7225,1.0,8
+image_0264,Bluebell,owlv2_b,True,sam2.1_b,0.61957,0.80124,169090,False,28.35368,10.81009,0.17281,0.72649,1.0,8
+image_0266,Bluebell,gdino_b,False,sam2.1_b,0.60663,0.83886,100632,True,7.19851,7.13841,0.98704,0.99004,0.99774,1
+image_0266,Bluebell,gdino_b,True,grabcut,0.55219,,120492,True,25.47583,0.25529,0.84729,0.84796,1.0,1
+image_0266,Bluebell,gdino_b,True,sam2.1_b,0.55219,0.8279,119162,True,25.47583,6.91959,0.85133,0.852,1.0,1
+image_0266,Bluebell,gdino_b,True,sam2.1_s,0.55219,0.86608,103215,True,25.47583,4.41767,0.97329,0.97682,0.99711,1
+image_0266,Bluebell,gdino_b,True,sam2.1_t,0.55219,0.90072,108362,True,25.47583,3.81861,0.92755,0.92828,1.0,1
+image_0266,Bluebell,none,False,grabcut,0.0,,113637,True,0.0,0.41786,0.87576,0.87652,0.99992,1
+image_0266,Bluebell,none,False,sam2.1_b,0.0,0.0,90244,True,0.0,7.10814,0.0,0.0,0.0,1
+image_0266,Bluebell,owlv2_b,True,sam2.1_b,0.73554,0.82217,119672,True,19.4723,7.0909,0.84972,0.85039,1.0,1
+image_0272,Bluebell,gdino_b,False,sam2.1_b,0.4706,0.93104,9281,True,7.14657,7.11253,0.98485,0.98506,1.0,5
+image_0272,Bluebell,gdino_b,True,grabcut,0.3808,,9595,True,21.23868,0.08024,0.97345,0.97365,1.0,5
+image_0272,Bluebell,gdino_b,True,sam2.1_b,0.3808,0.92521,9787,True,21.23868,6.89756,0.91725,0.91743,1.0,5
+image_0272,Bluebell,gdino_b,True,sam2.1_s,0.3808,0.89998,9648,True,21.23868,3.93776,0.91863,0.91882,1.0,5
+image_0272,Bluebell,gdino_b,True,sam2.1_t,0.3808,0.873,9575,True,21.23868,3.59736,0.9221,0.92229,1.0,5
+image_0272,Bluebell,none,False,grabcut,0.0,,30587,True,0.0,0.48507,0.34754,0.67374,1.0,5
+image_0272,Bluebell,none,False,sam2.1_b,0.0,2e-05,56551,True,0.0,6.85136,0.17992,0.6605,1.0,5
+image_0272,Bluebell,owlv2_b,True,sam2.1_b,0.53503,0.74143,54611,True,19.16946,6.82821,0.18358,0.67393,1.0,5
+image_0276,Bluebell,gdino_b,False,sam2.1_b,0.52759,0.98736,6875,True,7.71791,10.32041,0.98595,0.99151,1.0,5
+image_0276,Bluebell,gdino_b,True,grabcut,0.87129,,6569,True,21.78863,0.07903,0.9944,1.0,1.0,5
+image_0276,Bluebell,gdino_b,True,sam2.1_b,0.87129,0.92645,7138,True,21.78863,6.97721,0.93292,0.93818,1.0,5
+image_0276,Bluebell,gdino_b,True,sam2.1_s,0.87129,0.87341,7037,True,21.78863,4.01987,0.93872,0.94401,1.0,5
+image_0276,Bluebell,gdino_b,True,sam2.1_t,0.87129,0.91657,6988,True,21.78863,3.65794,0.94283,0.94814,1.0,5
+image_0276,Bluebell,none,False,grabcut,0.0,,29530,True,0.0,0.42812,0.4671,0.98495,1.0,5
+image_0276,Bluebell,none,False,sam2.1_b,0.0,0.43715,56645,True,0.0,9.72756,0.24413,0.78366,1.0,5
+image_0276,Bluebell,owlv2_b,True,sam2.1_b,0.732,0.46191,55989,True,23.83094,9.75316,0.2457,0.7887,1.0,5
+image_1131,Buttercup,gdino_b,False,sam2.1_b,0.85725,0.86341,128756,True,4.95717,7.04468,1.0,1.0,1.0,1
+image_1131,Buttercup,gdino_b,True,grabcut,0.88476,,128307,True,18.81091,0.15825,1.0,1.0,1.0,1
+image_1131,Buttercup,gdino_b,True,sam2.1_b,0.88476,0.83027,128790,True,18.81091,7.07639,1.0,1.0,1.0,1
+image_1131,Buttercup,gdino_b,True,sam2.1_s,0.88476,0.95996,127880,True,18.81091,4.04989,1.0,1.0,1.0,1
+image_1131,Buttercup,gdino_b,True,sam2.1_t,0.88476,0.88403,128132,True,18.81091,3.59024,1.0,1.0,1.0,1
+image_1131,Buttercup,none,False,grabcut,0.0,,128690,True,0.0,0.26681,1.0,1.0,1.0,1
+image_1131,Buttercup,none,False,sam2.1_b,0.0,0.60429,143094,True,0.0,7.2248,0.90544,0.90544,1.0,1
+image_1131,Buttercup,owlv2_b,True,sam2.1_b,0.3235,0.77625,128806,True,19.23908,6.90184,1.0,1.0,1.0,1
+image_1147,Buttercup,gdino_b,False,sam2.1_b,0.9091,0.79778,96702,True,6.50161,7.4678,1.0,1.0,1.0,1
+image_1147,Buttercup,gdino_b,True,grabcut,0.90164,,96550,True,20.06167,0.13154,0.99993,0.99993,1.0,1
+image_1147,Buttercup,gdino_b,True,sam2.1_b,0.90164,0.99398,96692,True,20.06167,7.38281,1.0,1.0,1.0,1
+image_1147,Buttercup,gdino_b,True,sam2.1_s,0.90164,0.99506,96365,True,20.06167,4.45713,1.0,1.0,1.0,1
+image_1147,Buttercup,gdino_b,True,sam2.1_t,0.90164,0.61041,96459,True,20.06167,3.73528,1.0,1.0,1.0,1
+image_1147,Buttercup,none,False,grabcut,0.0,,98566,True,0.0,0.26225,0.994,0.994,1.0,1
+image_1147,Buttercup,none,False,sam2.1_b,0.0,0.04583,14452,True,0.0,7.25586,0.04468,0.31581,0.04947,1
+image_1147,Buttercup,owlv2_b,True,sam2.1_b,0.53884,0.99655,96697,True,20.28312,7.01653,1.0,1.0,1.0,1
+image_1151,Buttercup,gdino_b,False,sam2.1_b,0.85971,0.57745,177121,True,6.15039,6.9998,1.0,1.0,1.0,1
+image_1151,Buttercup,gdino_b,True,grabcut,0.90016,,177199,True,23.27163,0.1128,1.0,1.0,1.0,1
+image_1151,Buttercup,gdino_b,True,sam2.1_b,0.90016,0.57745,177123,True,23.27163,7.34305,1.0,1.0,1.0,1
+image_1151,Buttercup,gdino_b,True,sam2.1_s,0.90016,0.0,176519,True,23.27163,4.04728,1.0,1.0,1.0,1
+image_1151,Buttercup,gdino_b,True,sam2.1_t,0.90016,0.0,176998,True,23.27163,3.85247,1.0,1.0,1.0,1
+image_1151,Buttercup,none,False,grabcut,0.0,,176534,True,0.0,0.12947,1.0,1.0,1.0,1
+image_1151,Buttercup,none,False,sam2.1_b,0.0,0.57763,177177,True,0.0,7.49109,1.0,1.0,1.0,1
+image_1151,Buttercup,owlv2_b,True,sam2.1_b,0.68169,0.57749,177134,True,19.47018,7.14381,1.0,1.0,1.0,1
+image_1158,Buttercup,gdino_b,False,sam2.1_b,0.86377,0.67454,150741,True,4.5384,6.70003,0.99998,1.0,0.99998,1
+image_1158,Buttercup,gdino_b,True,grabcut,0.88792,,151344,True,17.93766,0.16494,1.0,1.0,1.0,1
+image_1158,Buttercup,gdino_b,True,sam2.1_b,0.88792,0.67451,150749,True,17.93766,6.85326,0.99998,1.0,0.99998,1
+image_1158,Buttercup,gdino_b,True,sam2.1_s,0.88792,0.0,150863,True,17.93766,3.96931,1.0,1.0,1.0,1
+image_1158,Buttercup,gdino_b,True,sam2.1_t,0.88792,0.5836,150961,True,17.93766,3.45359,1.0,1.0,1.0,1
+image_1158,Buttercup,none,False,grabcut,0.0,,151458,True,0.0,0.15353,1.0,1.0,1.0,1
+image_1158,Buttercup,none,False,sam2.1_b,0.0,0.67452,150756,True,0.0,6.63103,0.99998,1.0,0.99998,1
+image_1158,Buttercup,owlv2_b,True,sam2.1_b,0.66666,0.67453,150749,True,18.61087,6.72041,0.99998,1.0,0.99998,1
+image_1159,Buttercup,gdino_b,False,sam2.1_b,0.88513,0.43854,135162,True,5.6916,6.94588,0.99286,0.99286,1.0,1
+image_1159,Buttercup,gdino_b,True,grabcut,0.89821,,132964,True,21.01839,0.12862,0.99513,0.99513,1.0,1
+image_1159,Buttercup,gdino_b,True,sam2.1_b,0.89821,0.99488,135189,True,21.01839,6.91318,0.99286,0.99286,1.0,1
+image_1159,Buttercup,gdino_b,True,sam2.1_s,0.89821,0.99325,134992,True,21.01839,4.12694,0.99286,0.99286,1.0,1
+image_1159,Buttercup,gdino_b,True,sam2.1_t,0.89821,0.59115,135836,True,21.01839,3.58606,0.99286,0.99286,1.0,1
+image_1159,Buttercup,none,False,grabcut,0.0,,133134,True,0.0,0.18737,0.99513,0.99513,1.0,1
+image_1159,Buttercup,none,False,sam2.1_b,0.0,0.46791,134587,True,0.0,6.97268,0.99286,0.99286,1.0,1
+image_1159,Buttercup,owlv2_b,True,sam2.1_b,0.62155,0.99519,135198,True,18.68313,6.82208,0.99286,0.99286,1.0,1
+image_1170,Buttercup,gdino_b,False,sam2.1_b,0.85973,0.57744,177118,True,6.15553,6.97963,0.99998,1.0,1.0,1
+image_1170,Buttercup,gdino_b,True,grabcut,0.9002,,177181,True,23.27718,0.11331,0.99998,1.0,1.0,1
+image_1170,Buttercup,gdino_b,True,sam2.1_b,0.9002,0.57746,177125,True,23.27718,6.86018,0.99998,1.0,1.0,1
+image_1170,Buttercup,gdino_b,True,sam2.1_s,0.9002,0.0,176518,True,23.27718,4.08942,0.99998,1.0,1.0,1
+image_1170,Buttercup,gdino_b,True,sam2.1_t,0.9002,0.0,176998,True,23.27718,3.54601,0.99998,1.0,1.0,1
+image_1170,Buttercup,none,False,grabcut,0.0,,176564,True,0.0,0.12216,0.99998,1.0,1.0,1
+image_1170,Buttercup,none,False,sam2.1_b,0.0,0.57763,177179,True,0.0,6.99718,0.99998,1.0,1.0,1
+image_1170,Buttercup,owlv2_b,True,sam2.1_b,0.68119,0.5775,177137,True,19.40748,6.84511,0.99998,1.0,1.0,1
+image_0881,Colts' Foot,gdino_b,False,sam2.1_b,0.84941,0.97228,110210,True,4.158,6.89802,0.9904,1.0,0.99893,1
+image_0881,Colts' Foot,gdino_b,True,grabcut,0.8554,,115578,True,17.36507,0.32704,0.9733,0.98373,0.99847,1
+image_0881,Colts' Foot,gdino_b,True,sam2.1_b,0.8554,0.9794,110269,True,17.36507,6.67068,0.99041,1.0,0.99894,1
+image_0881,Colts' Foot,gdino_b,True,sam2.1_s,0.8554,0.94523,110096,True,17.36507,4.00619,0.99051,0.99971,0.99917,1
+image_0881,Colts' Foot,gdino_b,True,sam2.1_t,0.8554,0.90867,111833,True,17.36507,3.74655,0.98922,0.99882,0.99911,1
+image_0881,Colts' Foot,none,False,grabcut,0.0,,115582,True,0.0,0.46909,0.97327,0.98372,0.99845,1
+image_0881,Colts' Foot,none,False,sam2.1_b,0.0,0.48586,110852,True,0.0,6.99609,0.98985,0.99959,0.99878,1
+image_0881,Colts' Foot,owlv2_b,True,sam2.1_b,0.50448,0.89534,110577,True,18.82928,6.88985,0.99041,0.99998,0.99898,1
+image_0896,Colts' Foot,gdino_b,False,sam2.1_b,0.88086,0.94996,144337,True,6.66784,7.40492,0.99856,0.99875,0.99981,1
+image_0896,Colts' Foot,gdino_b,True,grabcut,0.90035,,143036,True,25.68283,0.15264,0.99809,0.99809,1.0,1
+image_0896,Colts' Foot,gdino_b,True,sam2.1_b,0.90035,0.94438,144306,True,25.68283,7.9267,0.99856,0.99876,0.9998,1
+image_0896,Colts' Foot,gdino_b,True,sam2.1_s,0.90035,0.94065,143528,True,25.68283,4.45167,0.99834,0.99884,0.9995,1
+image_0896,Colts' Foot,gdino_b,True,sam2.1_t,0.90035,0.9469,144032,True,25.68283,3.84398,0.9985,0.99879,0.9997,1
+image_0896,Colts' Foot,none,False,grabcut,0.0,,143889,True,0.0,0.23597,0.99825,0.99825,1.0,1
+image_0896,Colts' Foot,none,False,sam2.1_b,0.0,0.0,103878,True,0.0,7.04796,0.0,0.0,0.0,1
+image_0896,Colts' Foot,owlv2_b,True,sam2.1_b,0.61388,0.96037,144355,True,20.0309,7.44561,0.99873,0.99873,1.0,1
+image_0901,Colts' Foot,gdino_b,False,sam2.1_b,0.89017,0.98855,117955,True,7.48653,6.92234,0.99997,1.0,0.99997,1
+image_0901,Colts' Foot,gdino_b,True,grabcut,0.87684,,114480,True,21.88127,0.15206,0.99908,1.0,0.99908,1
+image_0901,Colts' Foot,gdino_b,True,sam2.1_b,0.87684,0.96282,117989,True,21.88127,6.78062,1.0,1.0,1.0,1
+image_0901,Colts' Foot,gdino_b,True,sam2.1_s,0.87684,0.97388,117756,True,21.88127,4.11054,1.0,1.0,1.0,1
+image_0901,Colts' Foot,gdino_b,True,sam2.1_t,0.87684,0.95196,118143,True,21.88127,3.68893,1.0,1.0,1.0,1
+image_0901,Colts' Foot,none,False,grabcut,0.0,,113631,True,0.0,0.14942,0.99848,1.0,0.99848,1
+image_0901,Colts' Foot,none,False,sam2.1_b,0.0,0.3726,296460,True,0.0,6.98346,0.35321,0.35693,0.97129,1
+image_0901,Colts' Foot,owlv2_b,True,sam2.1_b,0.47132,0.9905,117792,True,18.7963,7.06932,0.99996,1.0,0.99996,1
+image_0913,Colts' Foot,gdino_b,False,sam2.1_b,0.85015,0.93788,95975,True,4.92712,6.85977,0.99832,0.99984,0.9985,1
+image_0913,Colts' Foot,gdino_b,True,grabcut,0.86412,,94880,True,18.59367,0.155,0.99707,0.99981,0.99728,1
+image_0913,Colts' Foot,gdino_b,True,sam2.1_b,0.86412,0.94986,96012,True,18.59367,6.98261,0.99838,0.99983,0.99857,1
+image_0913,Colts' Foot,gdino_b,True,sam2.1_s,0.86412,0.98043,95818,True,18.59367,4.03637,0.99938,0.99987,0.99953,1
+image_0913,Colts' Foot,gdino_b,True,sam2.1_t,0.86412,0.97131,96120,True,18.59367,3.56592,0.99945,0.99986,0.99962,1
+image_0913,Colts' Foot,none,False,grabcut,0.0,,94559,True,0.0,0.31339,0.99614,0.99996,0.9962,1
+image_0913,Colts' Foot,none,False,sam2.1_b,0.0,0.47216,116751,True,0.0,6.89656,0.8182,0.81886,0.99904,1
+image_0913,Colts' Foot,owlv2_b,True,sam2.1_b,0.34876,0.15438,114644,True,18.45443,6.84494,0.82736,0.82809,0.99896,1
+image_0929,Colts' Foot,gdino_b,False,sam2.1_b,0.87632,0.94902,71876,True,6.40687,6.88081,0.99978,1.0,1.0,1
+image_0929,Colts' Foot,gdino_b,True,grabcut,0.87596,,74152,True,21.02569,0.19807,0.99869,0.999,0.99991,1
+image_0929,Colts' Foot,gdino_b,True,sam2.1_b,0.87596,0.96154,71873,True,21.02569,7.02044,0.99978,1.0,1.0,1
+image_0929,Colts' Foot,gdino_b,True,sam2.1_s,0.87596,0.96592,71597,True,21.02569,4.17854,0.99974,1.0,0.99996,1
+image_0929,Colts' Foot,gdino_b,True,sam2.1_t,0.87596,0.95097,71982,True,21.02569,3.59992,0.99978,1.0,1.0,1
+image_0929,Colts' Foot,none,False,grabcut,0.0,,74919,True,0.0,0.34621,0.99803,0.99831,0.99994,1
+image_0929,Colts' Foot,none,False,sam2.1_b,0.0,0.077,18341,True,0.0,6.76273,0.0,0.0,0.0,1
+image_0929,Colts' Foot,owlv2_b,True,sam2.1_b,0.53565,0.9906,71774,True,20.28349,7.00347,0.99978,1.0,1.0,1
+image_0950,Colts' Foot,gdino_b,False,sam2.1_b,0.88677,0.98731,26377,True,16.14794,6.85495,0.99928,1.0,0.99933,1
+image_0950,Colts' Foot,gdino_b,True,grabcut,0.88099,,25685,True,31.91271,0.09924,0.99476,1.0,0.99481,1
+image_0950,Colts' Foot,gdino_b,True,sam2.1_b,0.88099,0.98544,26405,True,31.91271,7.04029,0.99949,1.0,0.99954,1
+image_0950,Colts' Foot,gdino_b,True,sam2.1_s,0.88099,0.92676,26435,True,31.91271,4.09694,0.99944,1.0,0.99949,1
+image_0950,Colts' Foot,gdino_b,True,sam2.1_t,0.88099,0.92822,26540,True,31.91271,3.63485,0.99969,1.0,0.99974,1
+image_0950,Colts' Foot,none,False,grabcut,0.0,,29882,True,0.0,0.38978,0.87454,0.87458,1.0,1
+image_0950,Colts' Foot,none,False,sam2.1_b,0.0,0.0,76902,True,0.0,7.41035,0.28829,0.28831,1.0,1
+image_0950,Colts' Foot,owlv2_b,True,sam2.1_b,0.47062,0.94864,32156,True,29.54557,7.26,0.81546,0.8155,1.0,1
+image_0328,Crocus,gdino_b,False,sam2.1_b,0.84395,0.98941,86246,True,5.14727,6.79882,1.0,1.0,1.0,1
+image_0328,Crocus,gdino_b,True,grabcut,0.86474,,93859,True,19.29208,0.34504,0.97872,0.97872,1.0,1
+image_0328,Crocus,gdino_b,True,sam2.1_b,0.86474,0.99019,86227,True,19.29208,6.81919,1.0,1.0,1.0,1
+image_0328,Crocus,gdino_b,True,sam2.1_s,0.86474,0.91405,85756,True,19.29208,3.99171,1.0,1.0,1.0,1
+image_0328,Crocus,gdino_b,True,sam2.1_t,0.86474,0.98521,85905,True,19.29208,3.49672,0.99997,1.0,0.99997,1
+image_0328,Crocus,none,False,grabcut,0.0,,92767,True,0.0,0.67412,0.9804,0.9804,1.0,1
+image_0328,Crocus,none,False,sam2.1_b,0.0,0.38507,86664,True,0.0,6.808,1.0,1.0,1.0,1
+image_0328,Crocus,owlv2_b,True,sam2.1_b,0.38696,0.98875,86255,True,18.93252,6.59954,1.0,1.0,1.0,1
+image_0341,Crocus,gdino_b,False,sam2.1_b,0.3925,0.55351,236435,False,19.12426,11.67395,0.36807,0.69034,0.99939,4
+image_0341,Crocus,gdino_b,True,grabcut,0.35423,,0,False,50.42746,0.27108,0.0,,0.0,0
+image_0341,Crocus,gdino_b,True,sam2.1_b,0.35423,0.88925,32721,True,50.42746,10.07953,0.45415,1.0,0.45415,4
+image_0341,Crocus,gdino_b,True,sam2.1_s,0.35423,0.80271,36408,True,50.42746,6.59947,0.48889,1.0,0.48889,4
+image_0341,Crocus,gdino_b,True,sam2.1_t,0.35423,0.56966,32869,True,50.42746,5.45926,0.45301,1.0,0.45301,4
+image_0341,Crocus,none,False,grabcut,0.0,,14230,True,0.0,2.03638,0.19131,1.0,0.19131,4
+image_0341,Crocus,none,False,sam2.1_b,0.0,0.56095,185341,True,0.0,11.56002,0.3386,0.71752,0.79196,4
+image_0341,Crocus,owlv2_b,True,sam2.1_b,0.0,0.56095,185341,False,31.62554,11.56399,0.3386,0.71752,0.79196,4
+image_0344,Crocus,gdino_b,False,sam2.1_b,0.85699,0.99097,143353,True,6.27809,6.73533,1.0,1.0,1.0,1
+image_0344,Crocus,gdino_b,True,grabcut,0.87844,,144477,True,22.52782,0.13796,1.0,1.0,1.0,1
+image_0344,Crocus,gdino_b,True,sam2.1_b,0.87844,0.99145,143356,True,22.52782,7.12073,1.0,1.0,1.0,1
+image_0344,Crocus,gdino_b,True,sam2.1_s,0.87844,0.99382,142953,True,22.52782,4.16337,1.0,1.0,1.0,1
+image_0344,Crocus,gdino_b,True,sam2.1_t,0.87844,0.95959,142684,True,22.52782,3.56903,1.0,1.0,1.0,1
+image_0344,Crocus,none,False,grabcut,0.0,,144479,True,0.0,0.16533,1.0,1.0,1.0,1
+image_0344,Crocus,none,False,sam2.1_b,0.0,0.47886,143355,True,0.0,7.0803,1.0,1.0,1.0,1
+image_0344,Crocus,owlv2_b,True,sam2.1_b,0.66461,0.99164,143337,True,19.36332,6.86072,1.0,1.0,1.0,1
+image_0350,Crocus,gdino_b,False,sam2.1_b,0.6543,0.98084,18424,True,7.31316,6.85552,0.0,,0.0,0
+image_0350,Crocus,gdino_b,True,grabcut,0.65194,,19536,True,22.04924,0.08668,1.0,1.0,1.0,1
+image_0350,Crocus,gdino_b,True,sam2.1_b,0.65194,0.98591,18429,True,22.04924,6.89489,0.0,,0.0,0
+image_0350,Crocus,gdino_b,True,sam2.1_s,0.65194,0.9903,18154,True,22.04924,4.19255,0.0,,0.0,0
+image_0350,Crocus,gdino_b,True,sam2.1_t,0.65194,0.63757,18124,True,22.04924,3.49627,0.0,,0.0,0
+image_0350,Crocus,none,False,grabcut,0.0,,75096,True,0.0,0.18197,0.99947,0.99947,1.0,1
+image_0350,Crocus,none,False,sam2.1_b,0.0,0.2749,100806,True,0.0,7.11394,0.7298,0.7298,1.0,1
+image_0350,Crocus,owlv2_b,True,sam2.1_b,0.46689,0.79114,83142,True,19.4138,7.06114,0.89538,0.89538,1.0,1
+image_0360,Crocus,gdino_b,False,sam2.1_b,0.6388,0.91547,38368,True,7.19044,7.33195,0.52431,0.98814,0.52763,1
+image_0360,Crocus,gdino_b,True,grabcut,0.4527,,32524,True,21.95982,0.45285,0.46397,1.0,0.46397,1
+image_0360,Crocus,gdino_b,True,sam2.1_b,0.4527,0.84371,32515,True,21.95982,7.27698,0.46832,1.0,0.46832,1
+image_0360,Crocus,gdino_b,True,sam2.1_s,0.4527,0.94334,36725,True,21.95982,4.08239,0.5173,0.99707,0.51808,1
+image_0360,Crocus,gdino_b,True,sam2.1_t,0.4527,0.95942,36022,True,21.95982,3.95649,0.50931,0.99712,0.51006,1
+image_0360,Crocus,none,False,grabcut,0.0,,75350,True,0.0,0.61289,0.99259,0.99282,0.99976,1
+image_0360,Crocus,none,False,sam2.1_b,0.0,0.33697,235225,True,0.0,6.83773,0.28363,0.28363,1.0,1
+image_0360,Crocus,owlv2_b,True,sam2.1_b,0.61004,0.927,77559,True,19.2335,7.22566,0.94782,0.94788,0.99993,1
+image_0381,Crocus,gdino_b,False,sam2.1_b,0.66433,0.98092,17281,True,7.15089,7.45128,0.99819,1.0,0.99819,2
+image_0381,Crocus,gdino_b,True,grabcut,0.83544,,17464,True,21.61197,0.07713,0.9979,1.0,0.9979,2
+image_0381,Crocus,gdino_b,True,sam2.1_b,0.83544,0.97799,17268,True,21.61197,7.342,0.99819,1.0,0.99819,2
+image_0381,Crocus,gdino_b,True,sam2.1_s,0.83544,0.97556,17125,True,21.61197,4.27634,0.99819,1.0,0.99819,2
+image_0381,Crocus,gdino_b,True,sam2.1_t,0.83544,0.96541,17113,True,21.61197,3.61868,0.99826,1.0,0.99826,2
+image_0381,Crocus,none,False,grabcut,0.0,,35314,True,0.0,0.50813,0.99394,0.99484,0.99909,2
+image_0381,Crocus,none,False,sam2.1_b,0.0,0.0,52620,True,0.0,6.76138,0.28675,0.28687,0.99855,2
+image_0381,Crocus,owlv2_b,True,sam2.1_b,0.42103,0.24858,55884,True,19.80373,6.873,0.5892,0.59026,0.99695,2
+image_0008,Daffodil,gdino_b,False,sam2.1_b,0.78947,0.99694,84938,True,4.72772,6.6069,0.88593,1.0,0.88593,1
+image_0008,Daffodil,gdino_b,True,grabcut,0.81027,,85038,True,18.13093,0.12427,0.88662,1.0,0.88662,1
+image_0008,Daffodil,gdino_b,True,sam2.1_b,0.81027,0.99714,84939,True,18.13093,6.97444,0.88593,1.0,0.88593,1
+image_0008,Daffodil,gdino_b,True,sam2.1_s,0.81027,0.98818,84773,True,18.13093,4.00366,0.88593,1.0,0.88593,1
+image_0008,Daffodil,gdino_b,True,sam2.1_t,0.81027,0.95886,84825,True,18.13093,3.48256,0.88608,1.0,0.88608,1
+image_0008,Daffodil,none,False,grabcut,0.0,,94706,True,0.0,0.21129,0.9759,1.0,0.9759,1
+image_0008,Daffodil,none,False,sam2.1_b,0.0,0.6702,109596,True,0.0,6.54171,0.59203,0.6886,0.80848,1
+image_0008,Daffodil,owlv2_b,True,sam2.1_b,0.4264,0.95851,85090,True,18.66792,7.43905,0.88595,1.0,0.88595,1
+image_0012,Daffodil,gdino_b,False,sam2.1_b,0.76486,0.99326,108590,True,6.22332,7.19792,0.99997,1.0,0.99997,2
+image_0012,Daffodil,gdino_b,True,grabcut,0.77749,,108696,True,22.19237,0.15652,0.99997,1.0,0.99997,2
+image_0012,Daffodil,gdino_b,True,sam2.1_b,0.77749,0.99307,108572,True,22.19237,6.77008,0.99997,1.0,0.99997,2
+image_0012,Daffodil,gdino_b,True,sam2.1_s,0.77749,0.99632,108400,True,22.19237,4.04524,0.9999,1.0,0.9999,2
+image_0012,Daffodil,gdino_b,True,sam2.1_t,0.77749,0.77653,108480,True,22.19237,3.88388,0.99992,1.0,0.99992,2
+image_0012,Daffodil,none,False,grabcut,0.0,,107788,True,0.0,0.1655,0.9978,1.0,0.9978,2
+image_0012,Daffodil,none,False,sam2.1_b,0.0,0.00059,108171,True,0.0,7.10628,0.99961,0.99977,0.99984,2
+image_0012,Daffodil,owlv2_b,True,sam2.1_b,0.5281,0.99069,108610,True,20.38747,7.51328,0.99995,1.0,0.99995,2
+image_0033,Daffodil,gdino_b,False,sam2.1_b,0.80593,0.85445,86090,True,9.48578,10.16458,0.8347,1.0,0.8347,1
+image_0033,Daffodil,gdino_b,True,grabcut,0.80517,,86092,True,32.84337,0.20943,0.83252,1.0,0.83252,1
+image_0033,Daffodil,gdino_b,True,sam2.1_b,0.80517,0.99432,86083,True,32.84337,9.86032,0.83454,1.0,0.83454,1
+image_0033,Daffodil,gdino_b,True,sam2.1_s,0.80517,0.86148,85812,True,32.84337,5.82648,0.83397,1.0,0.83397,1
+image_0033,Daffodil,gdino_b,True,sam2.1_t,0.80517,0.83693,85706,True,32.84337,4.81483,0.83426,1.0,0.83426,1
+image_0033,Daffodil,none,False,grabcut,0.0,,97306,True,0.0,0.15627,0.93386,1.0,0.93386,1
+image_0033,Daffodil,none,False,sam2.1_b,0.0,0.45762,86057,True,0.0,7.32469,0.83511,1.0,0.83511,1
+image_0033,Daffodil,owlv2_b,True,sam2.1_b,0.36292,0.82461,104029,False,26.33904,7.82961,1.0,1.0,1.0,1
+image_0041,Daffodil,gdino_b,False,sam2.1_b,0.68768,0.99671,38529,True,5.20627,7.05789,1.0,1.0,1.0,2
+image_0041,Daffodil,gdino_b,True,grabcut,0.60662,,38252,True,12.8796,0.1588,1.0,1.0,1.0,2
+image_0041,Daffodil,gdino_b,True,sam2.1_b,0.60662,0.99634,38517,True,12.8796,6.64592,1.0,1.0,1.0,2
+image_0041,Daffodil,gdino_b,True,sam2.1_s,0.60662,0.17023,38478,True,12.8796,3.80866,1.0,1.0,1.0,2
+image_0041,Daffodil,gdino_b,True,sam2.1_t,0.60662,0.0863,38065,True,12.8796,3.50418,1.0,1.0,1.0,2
+image_0041,Daffodil,none,False,grabcut,0.0,,38273,True,0.0,0.33272,1.0,1.0,1.0,2
+image_0041,Daffodil,none,False,sam2.1_b,0.0,0.19414,195902,True,0.0,6.91121,0.18039,0.28867,1.0,2
+image_0041,Daffodil,owlv2_b,True,sam2.1_b,0.39012,0.31204,260827,False,14.6011,6.87471,0.13519,0.21629,1.0,2
+image_0051,Daffodil,gdino_b,False,sam2.1_b,0.74251,0.93966,97671,True,6.41036,6.56829,0.90545,1.0,0.90952,2
+image_0051,Daffodil,gdino_b,True,grabcut,0.76453,,102433,True,23.91423,0.15841,0.95713,0.99969,0.96172,2
+image_0051,Daffodil,gdino_b,True,sam2.1_b,0.76453,0.92695,96383,True,23.91423,6.82191,0.89418,1.0,0.89821,2
+image_0051,Daffodil,gdino_b,True,sam2.1_s,0.76453,0.97567,95197,True,23.91423,4.03997,0.89459,1.0,0.89862,2
+image_0051,Daffodil,gdino_b,True,sam2.1_t,0.76453,0.93345,92576,True,23.91423,3.43088,0.8728,1.0,0.87673,2
+image_0051,Daffodil,none,False,grabcut,0.0,,93966,True,0.0,0.2479,0.8776,0.99997,0.88157,2
+image_0051,Daffodil,none,False,sam2.1_b,0.0,0.78001,96439,True,0.0,6.41118,0.89847,1.0,0.90251,2
+image_0051,Daffodil,owlv2_b,True,sam2.1_b,0.69756,0.96112,100290,True,18.31191,6.50781,0.93109,1.0,0.93528,2
+image_0060,Daffodil,gdino_b,False,sam2.1_b,0.82683,0.94933,93576,True,6.06998,7.9052,0.98546,0.98546,1.0,1
+image_0060,Daffodil,gdino_b,True,grabcut,0.48122,,105471,True,23.0662,0.21616,0.8564,0.8564,1.0,1
+image_0060,Daffodil,gdino_b,True,sam2.1_b,0.48122,0.94726,93575,True,23.0662,7.08553,0.98555,0.98555,1.0,1
+image_0060,Daffodil,gdino_b,True,sam2.1_s,0.48122,0.95247,96960,True,23.0662,4.14786,0.94065,0.94065,1.0,1
+image_0060,Daffodil,gdino_b,True,sam2.1_t,0.48122,0.88041,93571,True,23.0662,3.80811,0.98328,0.98328,1.0,1
+image_0060,Daffodil,none,False,grabcut,0.0,,108157,True,0.0,0.46489,0.82778,0.82778,1.0,1
+image_0060,Daffodil,none,False,sam2.1_b,0.0,1e-05,111429,True,0.0,9.84778,0.80311,0.80311,1.0,1
+image_0060,Daffodil,owlv2_b,True,sam2.1_b,0.59669,0.97942,110166,True,22.74207,9.75448,0.80571,0.80571,1.0,1
+image_0802,Daisy,gdino_b,False,sam2.1_b,0.87798,0.99027,137346,True,6.76645,7.07349,0.99984,0.99991,0.99993,1
+image_0802,Daisy,gdino_b,True,grabcut,0.90857,,137080,True,25.70388,0.14986,0.99951,0.99991,0.9996,1
+image_0802,Daisy,gdino_b,True,sam2.1_b,0.90857,0.99023,137376,True,25.70388,6.7889,0.99984,0.99991,0.99993,1
+image_0802,Daisy,gdino_b,True,sam2.1_s,0.90857,0.98947,137104,True,25.70388,4.32995,0.99989,0.99991,0.99997,1
+image_0802,Daisy,gdino_b,True,sam2.1_t,0.90857,0.30612,137794,True,25.70388,3.62397,0.99986,0.99991,0.99995,1
+image_0802,Daisy,none,False,grabcut,0.0,,137179,True,0.0,0.1458,0.99953,0.99991,0.99962,1
+image_0802,Daisy,none,False,sam2.1_b,0.0,0.42126,316411,True,0.0,6.93532,0.41184,0.41184,1.0,1
+image_0802,Daisy,owlv2_b,True,sam2.1_b,0.55045,0.9868,137144,True,18.37766,7.24583,0.99933,0.99991,0.99942,1
+image_0814,Daisy,gdino_b,False,sam2.1_b,0.90562,0.99403,97324,True,5.53936,6.95533,1.0,1.0,1.0,1
+image_0814,Daisy,gdino_b,True,grabcut,0.91304,,97604,True,20.05501,0.12493,0.99999,1.0,0.99999,1
+image_0814,Daisy,gdino_b,True,sam2.1_b,0.91304,0.994,97322,True,20.05501,7.19585,1.0,1.0,1.0,1
+image_0814,Daisy,gdino_b,True,sam2.1_s,0.91304,0.99687,97520,True,20.05501,4.13051,1.0,1.0,1.0,1
+image_0814,Daisy,gdino_b,True,sam2.1_t,0.91304,0.18324,97582,True,20.05501,3.61177,1.0,1.0,1.0,1
+image_0814,Daisy,none,False,grabcut,0.0,,97705,True,0.0,0.17736,1.0,1.0,1.0,1
+image_0814,Daisy,none,False,sam2.1_b,0.0,0.3821,255870,True,0.0,6.83173,0.35152,0.35152,1.0,1
+image_0814,Daisy,owlv2_b,True,sam2.1_b,0.57217,0.99407,97304,True,19.15267,7.1375,1.0,1.0,1.0,1
+image_0818,Daisy,gdino_b,False,sam2.1_b,0.89529,0.99412,120602,True,5.6672,7.50136,1.0,1.0,1.0,1
+image_0818,Daisy,gdino_b,True,grabcut,0.90586,,119680,True,22.96822,0.14855,0.99985,1.0,0.99985,1
+image_0818,Daisy,gdino_b,True,sam2.1_b,0.90586,0.99424,120605,True,22.96822,7.69899,1.0,1.0,1.0,1
+image_0818,Daisy,gdino_b,True,sam2.1_s,0.90586,0.98836,120403,True,22.96822,4.334,1.0,1.0,1.0,1
+image_0818,Daisy,gdino_b,True,sam2.1_t,0.90586,0.74043,120807,True,22.96822,3.74581,1.0,1.0,1.0,1
+image_0818,Daisy,none,False,grabcut,0.0,,119733,True,0.0,0.15736,0.99985,1.0,0.99985,1
+image_0818,Daisy,none,False,sam2.1_b,0.0,0.0,121307,True,0.0,7.42405,1.0,1.0,1.0,1
+image_0818,Daisy,owlv2_b,True,sam2.1_b,0.63712,0.99538,120607,True,19.68486,7.56044,1.0,1.0,1.0,1
+image_0828,Daisy,gdino_b,False,sam2.1_b,0.87239,0.0,128447,True,11.30024,7.15776,0.99998,1.0,0.99998,1
+image_0828,Daisy,gdino_b,True,grabcut,0.87501,,128919,True,26.57788,0.14446,0.99998,1.0,0.99998,1
+image_0828,Daisy,gdino_b,True,sam2.1_b,0.87501,0.0,128448,True,26.57788,7.22003,0.99998,1.0,0.99998,1
+image_0828,Daisy,gdino_b,True,sam2.1_s,0.87501,0.0,128257,True,26.57788,4.22991,1.0,1.0,1.0,1
+image_0828,Daisy,gdino_b,True,sam2.1_t,0.87501,0.50298,128059,True,26.57788,3.76383,0.99979,1.0,0.99979,1
+image_0828,Daisy,none,False,grabcut,0.0,,127056,True,0.0,0.14762,0.99857,1.0,0.99857,1
+image_0828,Daisy,none,False,sam2.1_b,0.0,0.0,127714,True,0.0,7.78994,0.99997,1.0,0.99997,1
+image_0828,Daisy,owlv2_b,True,sam2.1_b,0.63942,0.0,128349,True,28.41786,7.12355,0.99998,1.0,0.99998,1
+image_0842,Daisy,gdino_b,False,sam2.1_b,0.90777,0.99359,69427,True,6.37073,7.13589,0.99998,1.0,1.0,1
+image_0842,Daisy,gdino_b,True,grabcut,0.90753,,69927,True,20.52477,0.12703,0.99992,1.0,0.99994,1
+image_0842,Daisy,gdino_b,True,sam2.1_b,0.90753,0.9939,69428,True,20.52477,6.80528,0.99998,1.0,1.0,1
+image_0842,Daisy,gdino_b,True,sam2.1_s,0.90753,0.99554,69498,True,20.52477,4.1242,0.99998,1.0,1.0,1
+image_0842,Daisy,gdino_b,True,sam2.1_t,0.90753,0.91665,69422,True,20.52477,3.55963,0.99998,1.0,1.0,1
+image_0842,Daisy,none,False,grabcut,0.0,,69702,True,0.0,0.15921,0.99998,1.0,1.0,1
+image_0842,Daisy,none,False,sam2.1_b,0.0,0.29599,320639,True,0.0,6.89761,0.18333,0.18333,1.0,1
+image_0842,Daisy,owlv2_b,True,sam2.1_b,0.56099,0.99387,69402,True,18.77149,6.98455,0.99996,1.0,0.99998,1
+image_0865,Daisy,gdino_b,False,sam2.1_b,0.86059,0.99149,105533,True,6.76106,6.72887,0.99994,1.0,0.99994,1
+image_0865,Daisy,gdino_b,True,grabcut,0.87602,,105522,True,22.13327,0.13436,0.99979,0.99984,0.99995,1
+image_0865,Daisy,gdino_b,True,sam2.1_b,0.87602,0.99155,105531,True,22.13327,7.30246,0.99994,1.0,0.99994,1
+image_0865,Daisy,gdino_b,True,sam2.1_s,0.87602,0.99516,105383,True,22.13327,4.19025,0.99999,1.0,0.99999,1
+image_0865,Daisy,gdino_b,True,sam2.1_t,0.87602,0.51789,105372,True,22.13327,3.52349,0.99988,1.0,0.99988,1
+image_0865,Daisy,none,False,grabcut,0.0,,105560,True,0.0,0.18584,0.99976,0.99979,0.99998,1
+image_0865,Daisy,none,False,sam2.1_b,0.0,0.33112,110894,True,0.0,6.74571,0.77954,0.83825,0.91755,1
+image_0865,Daisy,owlv2_b,True,sam2.1_b,0.37307,0.99176,105554,True,18.59561,6.95391,0.99995,1.0,0.99995,1
+image_0973,Dandelion,gdino_b,False,sam2.1_b,0.86634,0.96535,114529,True,6.64483,6.97186,0.98866,0.98897,0.99968,1
+image_0973,Dandelion,gdino_b,True,grabcut,0.84711,,125139,True,21.14102,0.22262,0.98348,0.98351,0.99998,1
+image_0973,Dandelion,gdino_b,True,sam2.1_b,0.84711,0.96766,114566,True,21.14102,6.69444,0.98866,0.98897,0.99968,1
+image_0973,Dandelion,gdino_b,True,sam2.1_s,0.84711,0.97947,114159,True,21.14102,4.0145,0.98848,0.98897,0.9995,1
+image_0973,Dandelion,gdino_b,True,sam2.1_t,0.84711,0.95555,114148,True,21.14102,3.71286,0.98844,0.98897,0.99946,1
+image_0973,Dandelion,none,False,grabcut,0.0,,125294,True,0.0,0.27325,0.98318,0.9832,0.99999,1
+image_0973,Dandelion,none,False,sam2.1_b,0.0,0.0,152524,True,0.0,6.76168,0.0,0.0,0.0,1
+image_0973,Dandelion,owlv2_b,True,sam2.1_b,0.55166,0.9682,114699,True,18.85289,6.78409,0.98872,0.98897,0.99974,1
+image_0983,Dandelion,gdino_b,False,sam2.1_b,0.90553,0.9935,99919,True,5.1738,6.77246,0.99931,1.0,0.99999,1
+image_0983,Dandelion,gdino_b,True,grabcut,0.90049,,98524,True,19.01754,0.14948,0.99901,1.0,0.99969,1
+image_0983,Dandelion,gdino_b,True,sam2.1_b,0.90049,0.99297,99889,True,19.01754,6.91536,0.99931,1.0,0.99999,1
+image_0983,Dandelion,gdino_b,True,sam2.1_s,0.90049,0.99311,99664,True,19.01754,4.33215,0.99932,1.0,1.0,1
+image_0983,Dandelion,gdino_b,True,sam2.1_t,0.90049,0.91538,100082,True,19.01754,3.59692,0.99929,1.0,0.99997,1
+image_0983,Dandelion,none,False,grabcut,0.0,,99301,True,0.0,0.26207,0.99881,0.99972,0.99977,1
+image_0983,Dandelion,none,False,sam2.1_b,0.0,0.00025,161535,True,0.0,6.84041,0.0,0.0,0.0,1
+image_0983,Dandelion,owlv2_b,True,sam2.1_b,0.50201,0.99433,99949,True,18.93159,7.04097,0.99929,1.0,0.99997,1
+image_0988,Dandelion,gdino_b,False,sam2.1_b,0.89854,0.99434,102130,True,6.46696,6.82347,0.99985,1.0,0.99988,1
+image_0988,Dandelion,gdino_b,True,grabcut,0.90581,,102435,True,21.01246,0.14586,0.99973,0.99998,0.99999,1
+image_0988,Dandelion,gdino_b,True,sam2.1_b,0.90581,0.99469,102148,True,21.01246,6.87749,0.99984,1.0,0.99988,1
+image_0988,Dandelion,gdino_b,True,sam2.1_s,0.90581,0.98619,102057,True,21.01246,4.07656,0.99996,1.0,0.99998,1
+image_0988,Dandelion,gdino_b,True,sam2.1_t,0.90581,0.94263,102289,True,21.01246,3.50901,0.99995,1.0,0.99996,1
+image_0988,Dandelion,none,False,grabcut,0.0,,103114,True,0.0,0.17691,0.99613,0.9966,0.99976,1
+image_0988,Dandelion,none,False,sam2.1_b,0.0,0.09829,32506,True,0.0,6.82972,0.2247,0.76983,0.24088,1
+image_0988,Dandelion,owlv2_b,True,sam2.1_b,0.50346,0.99456,102169,True,18.7928,7.27277,0.99983,1.0,0.99985,1
+image_0993,Dandelion,gdino_b,False,sam2.1_b,0.90123,0.98938,183412,True,6.75794,8.22829,0.99981,1.0,0.99981,1
+image_0993,Dandelion,gdino_b,True,grabcut,0.91216,,182676,True,24.798,0.13383,0.99911,1.0,0.99911,1
+image_0993,Dandelion,gdino_b,True,sam2.1_b,0.91216,0.98957,183412,True,24.798,7.76923,0.99981,1.0,0.99981,1
+image_0993,Dandelion,gdino_b,True,sam2.1_s,0.91216,0.94656,182702,True,24.798,4.14364,0.99949,1.0,0.99949,1
+image_0993,Dandelion,gdino_b,True,sam2.1_t,0.91216,0.9433,183414,True,24.798,3.98256,0.99952,1.0,0.99952,1
+image_0993,Dandelion,none,False,grabcut,0.0,,178672,True,0.0,0.16091,0.99186,1.0,0.99186,1
+image_0993,Dandelion,none,False,sam2.1_b,0.0,0.00184,182411,True,0.0,7.36363,0.99962,1.0,0.99962,1
+image_0993,Dandelion,owlv2_b,True,sam2.1_b,0.55528,0.88728,183426,True,19.27332,7.4506,0.99982,1.0,0.99982,1
+image_1033,Dandelion,gdino_b,False,sam2.1_b,0.75677,0.99319,74355,True,6.42563,6.99556,0.99997,1.0,1.0,2
+image_1033,Dandelion,gdino_b,True,grabcut,0.78556,,72644,True,20.82285,0.18873,0.99872,1.0,0.99872,2
+image_1033,Dandelion,gdino_b,True,sam2.1_b,0.78556,0.99179,74376,True,20.82285,6.76136,0.99997,1.0,1.0,2
+image_1033,Dandelion,gdino_b,True,sam2.1_s,0.78556,0.98116,74165,True,20.82285,4.16358,0.99993,1.0,0.99997,2
+image_1033,Dandelion,gdino_b,True,sam2.1_t,0.78556,0.92897,74662,True,20.82285,3.65922,0.99997,1.0,1.0,2
+image_1033,Dandelion,none,False,grabcut,0.0,,72567,True,0.0,0.29801,0.9999,1.0,0.9999,2
+image_1033,Dandelion,none,False,sam2.1_b,0.0,0.0,75362,True,0.0,6.84824,0.99997,1.0,1.0,2
+image_1033,Dandelion,owlv2_b,True,sam2.1_b,0.49911,0.99021,74431,True,19.46177,6.9711,0.99997,1.0,1.0,2
+image_1035,Dandelion,gdino_b,False,sam2.1_b,0.83998,0.95079,79048,True,7.12071,6.93643,0.99991,1.0,1.0,1
+image_1035,Dandelion,gdino_b,True,grabcut,0.87822,,79324,True,21.2805,0.17545,0.99989,0.99998,1.0,1
+image_1035,Dandelion,gdino_b,True,sam2.1_b,0.87822,0.95234,79045,True,21.2805,7.40142,0.99991,1.0,1.0,1
+image_1035,Dandelion,gdino_b,True,sam2.1_s,0.87822,0.91883,78735,True,21.2805,4.28318,0.99987,0.99997,1.0,1
+image_1035,Dandelion,gdino_b,True,sam2.1_t,0.87822,0.91568,78776,True,21.2805,3.57541,0.99989,0.99998,1.0,1
+image_1035,Dandelion,none,False,grabcut,0.0,,78892,True,0.0,0.21862,0.99972,0.99998,0.99983,1
+image_1035,Dandelion,none,False,sam2.1_b,0.0,0.62481,57278,True,0.0,7.7214,0.68,0.94827,0.70625,1
+image_1035,Dandelion,owlv2_b,True,sam2.1_b,0.39823,0.94289,79023,True,19.09489,7.0948,0.99991,1.0,1.0,1
+image_0642,Fritillary,gdino_b,False,sam2.1_b,0.5195,0.9927,98813,True,5.21115,7.07229,1.0,1.0,1.0,1
+image_0642,Fritillary,gdino_b,True,grabcut,0.50446,,96598,True,19.93174,0.17887,0.99722,0.99821,0.99901,1
+image_0642,Fritillary,gdino_b,True,sam2.1_b,0.50446,0.95045,98863,True,19.93174,7.01481,1.0,1.0,1.0,1
+image_0642,Fritillary,gdino_b,True,sam2.1_s,0.50446,0.98679,97856,True,19.93174,4.11508,0.99995,1.0,0.99995,1
+image_0642,Fritillary,gdino_b,True,sam2.1_t,0.50446,0.96904,97326,True,19.93174,3.62993,0.99974,1.0,0.99974,1
+image_0642,Fritillary,none,False,grabcut,0.0,,97499,True,0.0,0.39243,0.99798,0.99826,0.99972,1
+image_0642,Fritillary,none,False,sam2.1_b,0.0,0.81547,120743,True,0.0,7.89985,0.81459,0.81459,1.0,1
+image_0642,Fritillary,owlv2_b,True,sam2.1_b,0.12681,0.83071,116959,True,19.34346,7.69936,0.83868,0.83868,1.0,1
+image_0644,Fritillary,gdino_b,False,sam2.1_b,0.56166,0.98089,112017,True,10.68085,7.32898,1.0,1.0,1.0,1
+image_0644,Fritillary,gdino_b,True,grabcut,0.40398,,110747,True,37.12185,0.2729,0.98366,0.9873,0.99626,1
+image_0644,Fritillary,gdino_b,True,sam2.1_b,0.40398,0.99504,111889,True,37.12185,6.99146,1.0,1.0,1.0,1
+image_0644,Fritillary,gdino_b,True,sam2.1_s,0.40398,0.95594,108768,True,37.12185,4.35441,0.98502,1.0,0.98502,1
+image_0644,Fritillary,gdino_b,True,sam2.1_t,0.40398,0.95529,110738,True,37.12185,3.53354,0.99994,1.0,0.99994,1
+image_0644,Fritillary,none,False,grabcut,0.0,,110024,True,0.0,0.37114,0.99869,1.0,0.99869,1
+image_0644,Fritillary,none,False,sam2.1_b,0.0,0.0,6296,True,0.0,7.20137,0.0,0.0,0.0,1
+image_0644,Fritillary,owlv2_b,True,sam2.1_b,0.2838,0.93343,112073,True,29.01979,7.03536,1.0,1.0,1.0,1
+image_0652,Fritillary,gdino_b,False,sam2.1_b,0.82406,0.89925,53499,True,5.68426,6.99394,1.0,1.0,1.0,1
+image_0652,Fritillary,gdino_b,True,grabcut,0.84255,,53757,True,19.24405,0.1336,0.99996,0.99996,1.0,1
+image_0652,Fritillary,gdino_b,True,sam2.1_b,0.84255,0.90315,53508,True,19.24405,6.74574,1.0,1.0,1.0,1
+image_0652,Fritillary,gdino_b,True,sam2.1_s,0.84255,0.85797,53169,True,19.24405,4.04584,1.0,1.0,1.0,1
+image_0652,Fritillary,gdino_b,True,sam2.1_t,0.84255,0.93078,53020,True,19.24405,3.5227,1.0,1.0,1.0,1
+image_0652,Fritillary,none,False,grabcut,0.0,,53801,True,0.0,0.43702,0.99998,0.99998,1.0,1
+image_0652,Fritillary,none,False,sam2.1_b,0.0,0.40263,93780,True,0.0,6.65294,0.52793,0.52793,1.0,1
+image_0652,Fritillary,owlv2_b,True,sam2.1_b,0.26846,0.40327,94182,True,18.80847,6.68112,0.52754,0.52754,1.0,1
+image_0660,Fritillary,gdino_b,False,sam2.1_b,0.39497,0.88603,76284,True,6.55108,6.86508,0.47839,0.93879,0.49379,1
+image_0660,Fritillary,gdino_b,True,grabcut,0.44669,,63421,True,23.56867,0.30533,0.47357,0.99966,0.47365,1
+image_0660,Fritillary,gdino_b,True,sam2.1_b,0.44669,0.80418,71736,True,23.56867,7.02548,0.49372,1.0,0.49372,1
+image_0660,Fritillary,gdino_b,True,sam2.1_s,0.44669,0.86692,71119,True,23.56867,4.16916,0.49359,1.0,0.49359,1
+image_0660,Fritillary,gdino_b,True,sam2.1_t,0.44669,0.97001,71245,True,23.56867,3.55011,0.49345,1.0,0.49345,1
+image_0660,Fritillary,none,False,grabcut,0.0,,137949,True,0.0,0.22302,0.98903,0.9998,0.98923,1
+image_0660,Fritillary,none,False,sam2.1_b,0.0,0.0,156288,True,0.0,6.9446,0.92196,0.92196,1.0,1
+image_0660,Fritillary,owlv2_b,True,sam2.1_b,0.36652,0.91692,155791,True,18.83482,6.88496,0.92185,0.92185,1.0,1
+image_0667,Fritillary,gdino_b,False,sam2.1_b,0.46173,0.97875,95029,True,6.76755,9.67352,0.99978,1.0,0.99978,1
+image_0667,Fritillary,gdino_b,True,grabcut,0.49288,,89485,True,24.36901,0.15514,0.9836,1.0,0.9836,1
+image_0667,Fritillary,gdino_b,True,sam2.1_b,0.49288,0.98954,95048,True,24.36901,7.61213,0.99978,1.0,0.99978,1
+image_0667,Fritillary,gdino_b,True,sam2.1_s,0.49288,0.97774,94388,True,24.36901,4.35964,0.99924,1.0,0.99924,1
+image_0667,Fritillary,gdino_b,True,sam2.1_t,0.49288,0.98259,94839,True,24.36901,3.91914,0.99981,1.0,0.99981,1
+image_0667,Fritillary,none,False,grabcut,0.0,,88968,True,0.0,0.78838,0.98345,1.0,0.98345,1
+image_0667,Fritillary,none,False,sam2.1_b,0.0,0.0,1861,True,0.0,14.30852,0.0,0.0,0.0,1
+image_0667,Fritillary,owlv2_b,True,sam2.1_b,0.15937,0.10831,115556,True,26.13386,13.22438,0.82946,0.82955,0.99988,1
+image_0705,Fritillary,gdino_b,False,sam2.1_b,0.73262,0.98594,150455,True,6.53977,7.68534,1.0,1.0,1.0,1
+image_0705,Fritillary,gdino_b,True,grabcut,0.82098,,148918,True,23.54164,0.20123,0.99499,0.99699,0.99799,1
+image_0705,Fritillary,gdino_b,True,sam2.1_b,0.82098,0.9862,150483,True,23.54164,7.02486,1.0,1.0,1.0,1
+image_0705,Fritillary,gdino_b,True,sam2.1_s,0.82098,0.97993,149633,True,23.54164,4.19739,1.0,1.0,1.0,1
+image_0705,Fritillary,gdino_b,True,sam2.1_t,0.82098,0.94407,149465,True,23.54164,3.68623,1.0,1.0,1.0,1
+image_0705,Fritillary,none,False,grabcut,0.0,,149133,True,0.0,0.29222,0.99479,0.99689,0.99788,1
+image_0705,Fritillary,none,False,sam2.1_b,0.0,0.12294,196865,True,0.0,7.54828,0.74379,0.74726,0.99381,1
+image_0705,Fritillary,owlv2_b,True,sam2.1_b,0.1943,0.96866,150507,True,19.00145,7.13695,1.0,1.0,1.0,1
+image_0415,Iris,gdino_b,False,sam2.1_b,0.86551,0.98891,106481,True,7.5448,11.47622,0.99914,0.99966,0.99947,1
+image_0415,Iris,gdino_b,True,grabcut,0.85674,,105911,True,30.20596,0.20497,0.99903,0.99979,0.99925,1
+image_0415,Iris,gdino_b,True,sam2.1_b,0.85674,0.9901,106499,True,30.20596,11.54746,0.99915,0.99966,0.99948,1
+image_0415,Iris,gdino_b,True,sam2.1_s,0.85674,0.99435,106440,True,30.20596,6.74354,0.99925,0.99974,0.99951,1
+image_0415,Iris,gdino_b,True,sam2.1_t,0.85674,0.0,106585,True,30.20596,5.57967,0.99916,0.99965,0.99951,1
+image_0415,Iris,none,False,grabcut,0.0,,105397,True,0.0,0.272,0.99932,1.0,0.99932,1
+image_0415,Iris,none,False,sam2.1_b,0.0,0.0,106768,True,0.0,11.23033,0.9992,0.99965,0.99955,1
+image_0415,Iris,owlv2_b,True,sam2.1_b,0.66883,0.99032,106503,True,29.46289,11.31421,0.99916,0.99966,0.99949,1
+image_0419,Iris,gdino_b,False,sam2.1_b,0.86771,0.0,112424,True,5.3454,6.90307,0.99894,0.99938,0.99956,1
+image_0419,Iris,gdino_b,True,grabcut,0.88709,,114032,True,19.11388,0.2606,0.99808,0.99808,1.0,1
+image_0419,Iris,gdino_b,True,sam2.1_b,0.88709,0.0,112398,True,19.11388,6.7934,0.99893,0.99938,0.99955,1
+image_0419,Iris,gdino_b,True,sam2.1_s,0.88709,0.0,112192,True,19.11388,4.03983,0.99829,0.99938,0.99892,1
+image_0419,Iris,gdino_b,True,sam2.1_t,0.88709,0.0,112649,True,19.11388,3.47102,0.99899,0.99938,0.99961,1
+image_0419,Iris,none,False,grabcut,0.0,,111034,True,0.0,0.33039,0.98702,0.99806,0.98892,1
+image_0419,Iris,none,False,sam2.1_b,0.0,0.0,112422,True,0.0,7.04494,0.99896,0.99938,0.99958,1
+image_0419,Iris,owlv2_b,True,sam2.1_b,0.70116,0.0,112453,True,18.98147,7.08519,0.99894,0.99938,0.99956,1
+image_0422,Iris,gdino_b,False,sam2.1_b,0.86146,0.99468,129872,True,6.15572,6.87415,1.0,1.0,1.0,1
+image_0422,Iris,gdino_b,True,grabcut,0.84267,,130154,True,21.83463,0.13055,1.0,1.0,1.0,1
+image_0422,Iris,gdino_b,True,sam2.1_b,0.84267,0.99478,129870,True,21.83463,6.96274,1.0,1.0,1.0,1
+image_0422,Iris,gdino_b,True,sam2.1_s,0.84267,0.99475,129706,True,21.83463,4.14797,1.0,1.0,1.0,1
+image_0422,Iris,gdino_b,True,sam2.1_t,0.84267,0.9007,129854,True,21.83463,3.63612,1.0,1.0,1.0,1
+image_0422,Iris,none,False,grabcut,0.0,,129514,True,0.0,0.1325,1.0,1.0,1.0,1
+image_0422,Iris,none,False,sam2.1_b,0.0,0.46448,130253,True,0.0,7.05835,1.0,1.0,1.0,1
+image_0422,Iris,owlv2_b,True,sam2.1_b,0.58444,0.99454,129866,True,19.14853,6.90474,1.0,1.0,1.0,1
+image_0427,Iris,gdino_b,False,sam2.1_b,0.85268,0.42022,106041,True,4.67227,6.79878,0.99851,1.0,0.99991,1
+image_0427,Iris,gdino_b,True,grabcut,0.80697,,112575,True,18.4449,0.35196,0.97601,0.97738,1.0,1
+image_0427,Iris,gdino_b,True,sam2.1_b,0.80697,0.42033,106070,True,18.4449,7.09228,0.99851,1.0,0.99991,1
+image_0427,Iris,gdino_b,True,sam2.1_s,0.80697,0.41965,105924,True,18.4449,4.11015,0.99854,1.0,0.99994,1
+image_0427,Iris,gdino_b,True,sam2.1_t,0.80697,0.42036,106128,True,18.4449,3.58757,0.9986,1.0,1.0,1
+image_0427,Iris,none,False,grabcut,0.0,,111334,True,0.0,0.33601,0.97611,0.97765,0.99982,1
+image_0427,Iris,none,False,sam2.1_b,0.0,0.42013,106020,True,0.0,6.79104,0.99852,1.0,0.99992,1
+image_0427,Iris,owlv2_b,True,sam2.1_b,0.75258,0.42049,106110,True,18.68161,6.94791,0.99852,1.0,0.99992,1
+image_0450,Iris,gdino_b,False,sam2.1_b,0.80515,0.98249,90237,True,6.7124,7.40039,1.0,1.0,1.0,1
+image_0450,Iris,gdino_b,True,grabcut,0.711,,83814,True,21.09254,0.36405,0.95173,0.99618,0.95522,1
+image_0450,Iris,gdino_b,True,sam2.1_b,0.711,0.98923,90292,True,21.09254,7.49063,1.0,1.0,1.0,1
+image_0450,Iris,gdino_b,True,sam2.1_s,0.711,0.96854,89422,True,21.09254,4.33839,0.99991,1.0,0.99991,1
+image_0450,Iris,gdino_b,True,sam2.1_t,0.711,0.8509,88893,True,21.09254,3.88516,0.99973,1.0,0.99973,1
+image_0450,Iris,none,False,grabcut,0.0,,77583,True,0.0,0.52804,0.92703,1.0,0.92703,1
+image_0450,Iris,none,False,sam2.1_b,0.0,0.33326,92450,True,0.0,6.95842,0.9871,0.98712,0.99999,1
+image_0450,Iris,owlv2_b,True,sam2.1_b,0.61341,0.93437,90474,True,19.40458,7.50289,1.0,1.0,1.0,1
+image_0467,Iris,gdino_b,False,sam2.1_b,0.86358,0.0,112906,True,4.89539,6.78528,0.99937,1.0,0.99937,1
+image_0467,Iris,gdino_b,True,grabcut,0.82182,,121850,True,19.68016,0.44553,0.98805,0.98805,1.0,1
+image_0467,Iris,gdino_b,True,sam2.1_b,0.82182,0.5398,112865,True,19.68016,6.83761,0.99937,1.0,0.99937,1
+image_0467,Iris,gdino_b,True,sam2.1_s,0.82182,0.99011,113103,True,19.68016,4.05486,0.99953,1.0,0.99953,1
+image_0467,Iris,gdino_b,True,sam2.1_t,0.82182,0.03738,113211,True,19.68016,3.51958,0.99953,1.0,0.99953,1
+image_0467,Iris,none,False,grabcut,0.0,,120413,True,0.0,0.52242,0.98258,0.98356,0.99899,1
+image_0467,Iris,none,False,sam2.1_b,0.0,0.0,112944,True,0.0,6.85466,0.9994,1.0,0.9994,1
+image_0467,Iris,owlv2_b,True,sam2.1_b,0.61612,0.98509,112820,True,19.32439,6.78954,0.99937,1.0,0.99937,1
+image_0162,Lily Valley,gdino_b,False,sam2.1_b,0.63706,0.95114,31709,True,4.93864,7.57867,1.0,1.0,1.0,2
+image_0162,Lily Valley,gdino_b,True,grabcut,0.64463,,31598,True,19.04597,0.15724,1.0,1.0,1.0,2
+image_0162,Lily Valley,gdino_b,True,sam2.1_b,0.64463,0.93776,31715,True,19.04597,7.051,1.0,1.0,1.0,2
+image_0162,Lily Valley,gdino_b,True,sam2.1_s,0.64463,0.99042,31435,True,19.04597,4.11871,1.0,1.0,1.0,2
+image_0162,Lily Valley,gdino_b,True,sam2.1_t,0.64463,0.8076,31513,True,19.04597,3.74046,1.0,1.0,1.0,2
+image_0162,Lily Valley,none,False,grabcut,0.0,,31704,True,0.0,0.43399,1.0,1.0,1.0,2
+image_0162,Lily Valley,none,False,sam2.1_b,0.0,0.0,161973,True,0.0,9.97793,0.0,0.0,0.0,2
+image_0162,Lily Valley,owlv2_b,True,sam2.1_b,0.52216,0.94151,69291,True,20.7367,8.56088,0.45149,0.84535,1.0,2
+image_0163,Lily Valley,gdino_b,False,sam2.1_b,0.38609,0.89499,23045,True,10.92509,10.79967,0.19991,1.0,0.19991,1
+image_0163,Lily Valley,gdino_b,True,grabcut,0.44019,,23026,True,32.34337,0.42542,0.20055,1.0,0.20055,1
+image_0163,Lily Valley,gdino_b,True,sam2.1_b,0.44019,0.89137,23034,True,32.34337,9.87569,0.19993,1.0,0.19993,1
+image_0163,Lily Valley,gdino_b,True,sam2.1_s,0.44019,0.78078,22974,True,32.34337,6.65773,0.19959,1.0,0.19959,1
+image_0163,Lily Valley,gdino_b,True,sam2.1_t,0.44019,0.86497,22819,True,32.34337,5.59694,0.19953,1.0,0.19953,1
+image_0163,Lily Valley,none,False,grabcut,0.0,,123538,True,0.0,0.19088,1.0,1.0,1.0,1
+image_0163,Lily Valley,none,False,sam2.1_b,0.0,0.00191,119101,True,0.0,6.9124,0.9919,0.99919,0.99269,1
+image_0163,Lily Valley,owlv2_b,True,sam2.1_b,0.80157,0.90597,133544,True,27.52173,6.91348,0.99825,0.99831,1.0,1
+image_0166,Lily Valley,gdino_b,False,sam2.1_b,0.75574,0.99071,138288,True,9.17421,9.53286,0.99966,0.99966,1.0,1
+image_0166,Lily Valley,gdino_b,True,grabcut,0.7999,,137245,True,27.76617,0.24372,0.99966,0.99966,1.0,1
+image_0166,Lily Valley,gdino_b,True,sam2.1_b,0.7999,0.9917,138292,True,27.76617,8.72492,0.99966,0.99966,1.0,1
+image_0166,Lily Valley,gdino_b,True,sam2.1_s,0.7999,0.96758,137743,True,27.76617,4.76418,0.99966,0.99966,1.0,1
+image_0166,Lily Valley,gdino_b,True,sam2.1_t,0.7999,0.85849,138361,True,27.76617,3.71033,0.99966,0.99966,1.0,1
+image_0166,Lily Valley,none,False,grabcut,0.0,,136160,True,0.0,0.57012,0.9996,0.99966,0.99994,1
+image_0166,Lily Valley,none,False,sam2.1_b,0.0,0.2477,109972,True,0.0,11.29587,0.0,0.0,0.0,1
+image_0166,Lily Valley,owlv2_b,True,sam2.1_b,0.6136,0.99197,138345,True,27.09075,10.97924,0.99966,0.99966,1.0,1
+image_0170,Lily Valley,gdino_b,False,sam2.1_b,0.37983,0.6782,11816,True,10.44808,11.38063,0.9957,0.9957,1.0,3
+image_0170,Lily Valley,gdino_b,True,grabcut,0.38599,,12512,False,33.36409,0.12033,0.99552,0.99552,1.0,3
+image_0170,Lily Valley,gdino_b,True,sam2.1_b,0.38599,0.91287,13061,False,33.36409,11.3088,0.93613,0.93613,1.0,3
+image_0170,Lily Valley,gdino_b,True,sam2.1_s,0.38599,0.74599,12456,False,33.36409,6.46827,0.99606,0.99606,1.0,3
+image_0170,Lily Valley,gdino_b,True,sam2.1_t,0.38599,0.73046,12451,False,33.36409,5.67808,0.9957,0.9957,1.0,3
+image_0170,Lily Valley,none,False,grabcut,0.0,,167993,True,0.0,0.5193,0.09108,0.21663,1.0,3
+image_0170,Lily Valley,none,False,sam2.1_b,0.0,0.78231,96312,True,0.0,6.99152,0.0,0.0,0.0,3
+image_0170,Lily Valley,owlv2_b,True,sam2.1_b,0.11861,0.36801,112080,False,26.18719,6.8831,0.15572,0.37278,1.0,3
+image_0175,Lily Valley,gdino_b,False,sam2.1_b,0.4212,0.92162,4762,True,5.7885,7.94127,0.99627,1.0,0.99627,10
+image_0175,Lily Valley,gdino_b,True,grabcut,0.42566,,4663,True,20.50348,0.01571,0.9959,1.0,0.9959,10
+image_0175,Lily Valley,gdino_b,True,sam2.1_b,0.42566,0.98113,4758,True,20.50348,8.17666,0.99627,1.0,0.99627,10
+image_0175,Lily Valley,gdino_b,True,sam2.1_s,0.42566,0.9281,4701,True,20.50348,6.13212,0.99739,1.0,0.99739,10
+image_0175,Lily Valley,gdino_b,True,sam2.1_t,0.42566,0.90187,4657,True,20.50348,4.91259,0.99627,1.0,0.99627,10
+image_0175,Lily Valley,none,False,grabcut,0.0,,33067,True,0.0,0.495,0.1931,0.8483,1.0,10
+image_0175,Lily Valley,none,False,sam2.1_b,0.0,0.0,57859,True,0.0,7.60237,0.0847,0.23291,0.71315,10
+image_0175,Lily Valley,owlv2_b,True,sam2.1_b,0.4337,0.12078,277604,False,19.98713,7.37741,0.02297,0.11681,1.0,10
+image_0183,Lily Valley,gdino_b,False,sam2.1_b,0.46087,0.93416,3463,True,6.60789,6.84234,1.0,1.0,1.0,1
+image_0183,Lily Valley,gdino_b,True,grabcut,0.65746,,3272,True,20.09275,0.02433,1.0,1.0,1.0,1
+image_0183,Lily Valley,gdino_b,True,sam2.1_b,0.65746,0.91753,3371,True,20.09275,7.05533,1.0,1.0,1.0,1
+image_0183,Lily Valley,gdino_b,True,sam2.1_s,0.65746,0.90363,3414,True,20.09275,4.10325,1.0,1.0,1.0,1
+image_0183,Lily Valley,gdino_b,True,sam2.1_t,0.65746,0.90485,3363,True,20.09275,3.80601,1.0,1.0,1.0,1
+image_0183,Lily Valley,none,False,grabcut,0.0,,98206,True,0.0,0.69113,0.18766,0.20859,1.0,1
+image_0183,Lily Valley,none,False,sam2.1_b,0.0,0.00885,134939,True,0.0,6.89189,0.06294,0.06681,0.53639,1
+image_0183,Lily Valley,owlv2_b,True,sam2.1_b,0.37396,0.73754,34481,True,22.33427,7.64493,0.78146,0.79259,1.0,1
+image_1281,Pansy,gdino_b,False,sam2.1_b,0.7247,0.96621,105682,True,4.22813,6.55546,1.0,1.0,1.0,1
+image_1281,Pansy,gdino_b,True,grabcut,0.67788,,105874,True,17.78442,0.14258,1.0,1.0,1.0,1
+image_1281,Pansy,gdino_b,True,sam2.1_b,0.67788,0.96727,105687,True,17.78442,6.80049,1.0,1.0,1.0,1
+image_1281,Pansy,gdino_b,True,sam2.1_s,0.67788,0.9973,105623,True,17.78442,3.86623,1.0,1.0,1.0,1
+image_1281,Pansy,gdino_b,True,sam2.1_t,0.67788,0.93879,105642,True,17.78442,3.33953,1.0,1.0,1.0,1
+image_1281,Pansy,none,False,grabcut,0.0,,105879,True,0.0,0.34295,1.0,1.0,1.0,1
+image_1281,Pansy,none,False,sam2.1_b,0.0,0.0,105636,True,0.0,6.88869,1.0,1.0,1.0,1
+image_1281,Pansy,owlv2_b,True,sam2.1_b,0.71323,0.83859,105681,True,18.17097,6.56369,1.0,1.0,1.0,1
+image_1297,Pansy,gdino_b,False,sam2.1_b,0.63792,0.90595,91677,True,6.52653,7.22882,0.78808,1.0,0.78808,1
+image_1297,Pansy,gdino_b,True,grabcut,0.64992,,101985,True,22.12927,0.11345,0.85738,0.99988,0.85747,1
+image_1297,Pansy,gdino_b,True,sam2.1_b,0.64992,0.90656,91682,True,22.12927,7.38044,0.78811,1.0,0.78811,1
+image_1297,Pansy,gdino_b,True,sam2.1_s,0.64992,0.98508,92034,True,22.12927,4.73377,0.78793,1.0,0.78793,1
+image_1297,Pansy,gdino_b,True,sam2.1_t,0.64992,0.91429,91750,True,22.12927,3.52526,0.78782,1.0,0.78782,1
+image_1297,Pansy,none,False,grabcut,0.0,,124243,True,0.0,0.21447,0.99179,0.99185,0.99994,1
+image_1297,Pansy,none,False,sam2.1_b,0.0,0.00128,125618,True,0.0,7.143,0.99177,0.99228,0.99948,1
+image_1297,Pansy,owlv2_b,True,sam2.1_b,0.60924,0.75143,123753,True,19.63,7.54324,0.99719,0.99781,0.99938,1
+image_1304,Pansy,gdino_b,False,sam2.1_b,0.67515,0.92739,56815,True,6.68644,6.81567,0.48701,1.0,0.48701,1
+image_1304,Pansy,gdino_b,True,grabcut,0.66551,,66475,True,20.07171,0.23978,0.57411,1.0,0.57411,1
+image_1304,Pansy,gdino_b,True,sam2.1_b,0.66551,0.92254,56754,True,20.07171,6.82724,0.48659,1.0,0.48659,1
+image_1304,Pansy,gdino_b,True,sam2.1_s,0.66551,0.84233,56904,True,20.07171,3.91489,0.49098,1.0,0.49098,1
+image_1304,Pansy,gdino_b,True,sam2.1_t,0.66551,0.65939,55666,True,20.07171,3.5273,0.48979,1.0,0.48979,1
+image_1304,Pansy,none,False,grabcut,0.0,,117444,True,0.0,0.24591,1.0,1.0,1.0,1
+image_1304,Pansy,none,False,sam2.1_b,0.0,0.0,128269,True,0.0,6.86973,0.928,0.928,1.0,1
+image_1304,Pansy,owlv2_b,True,sam2.1_b,0.53928,0.48865,119890,True,19.14651,6.95388,0.97985,0.97985,1.0,1
+image_1312,Pansy,gdino_b,False,sam2.1_b,0.87582,0.99325,113960,True,6.01906,6.73733,0.99993,1.0,0.99993,1
+image_1312,Pansy,gdino_b,True,grabcut,0.87426,,113894,True,23.92984,0.15082,1.0,1.0,1.0,1
+image_1312,Pansy,gdino_b,True,sam2.1_b,0.87426,0.99334,113958,True,23.92984,6.83614,0.99992,1.0,0.99992,1
+image_1312,Pansy,gdino_b,True,sam2.1_s,0.87426,0.98234,113416,True,23.92984,4.02082,0.9997,1.0,0.9997,1
+image_1312,Pansy,gdino_b,True,sam2.1_t,0.87426,0.83889,113465,True,23.92984,3.50606,0.99954,1.0,0.99954,1
+image_1312,Pansy,none,False,grabcut,0.0,,114013,True,0.0,0.23099,1.0,1.0,1.0,1
+image_1312,Pansy,none,False,sam2.1_b,0.0,0.00019,115800,True,0.0,6.82912,0.99363,0.99363,1.0,1
+image_1312,Pansy,owlv2_b,True,sam2.1_b,0.55213,0.99232,113940,True,19.60411,6.9508,0.9999,1.0,0.9999,1
+image_1313,Pansy,gdino_b,False,sam2.1_b,0.83773,0.99556,78522,True,6.72859,7.33303,1.0,1.0,1.0,1
+image_1313,Pansy,gdino_b,True,grabcut,0.80899,,78425,True,20.05468,0.127,1.0,1.0,1.0,1
+image_1313,Pansy,gdino_b,True,sam2.1_b,0.80899,0.99557,78521,True,20.05468,6.80004,1.0,1.0,1.0,1
+image_1313,Pansy,gdino_b,True,sam2.1_s,0.80899,0.97229,78138,True,20.05468,4.30074,1.0,1.0,1.0,1
+image_1313,Pansy,gdino_b,True,sam2.1_t,0.80899,0.72904,78229,True,20.05468,3.73428,1.0,1.0,1.0,1
+image_1313,Pansy,none,False,grabcut,0.0,,78481,True,0.0,0.1688,1.0,1.0,1.0,1
+image_1313,Pansy,none,False,sam2.1_b,0.0,0.0233,28582,True,0.0,6.94118,0.07229,0.25966,0.09106,1
+image_1313,Pansy,owlv2_b,True,sam2.1_b,0.66334,0.89467,109379,True,19.51846,7.427,0.72416,0.72416,1.0,1
+image_1318,Pansy,gdino_b,False,sam2.1_b,0.76566,0.99308,103757,True,6.74243,7.30276,1.0,1.0,1.0,1
+image_1318,Pansy,gdino_b,True,grabcut,0.75446,,104567,True,24.09893,0.11633,1.0,1.0,1.0,1
+image_1318,Pansy,gdino_b,True,sam2.1_b,0.75446,0.99447,103756,True,24.09893,6.93846,1.0,1.0,1.0,1
+image_1318,Pansy,gdino_b,True,sam2.1_s,0.75446,0.98141,103816,True,24.09893,4.12696,0.99995,1.0,0.99995,1
+image_1318,Pansy,gdino_b,True,sam2.1_t,0.75446,0.71076,103995,True,24.09893,3.68421,1.0,1.0,1.0,1
+image_1318,Pansy,none,False,grabcut,0.0,,104703,True,0.0,0.26574,1.0,1.0,1.0,1
+image_1318,Pansy,none,False,sam2.1_b,0.0,0.07818,172742,True,0.0,7.36822,0.58985,0.58985,1.0,1
+image_1318,Pansy,owlv2_b,True,sam2.1_b,0.51031,0.89391,105756,True,20.8661,7.07171,0.99041,0.99041,1.0,1
+image_0088,Snowdrop,gdino_b,False,sam2.1_b,0.47415,0.9889,40203,True,7.21087,10.3701,0.99468,0.99468,1.0,1
+image_0088,Snowdrop,gdino_b,True,grabcut,0.52482,,36715,True,26.80086,0.36023,0.99649,0.99649,1.0,1
+image_0088,Snowdrop,gdino_b,True,sam2.1_b,0.52482,0.97657,40185,True,26.80086,10.93801,0.99472,0.99472,1.0,1
+image_0088,Snowdrop,gdino_b,True,sam2.1_s,0.52482,0.98559,40245,True,26.80086,6.23764,0.99375,0.99375,1.0,1
+image_0088,Snowdrop,gdino_b,True,sam2.1_t,0.52482,0.9268,40084,True,26.80086,5.47098,0.99235,0.99235,1.0,1
+image_0088,Snowdrop,none,False,grabcut,0.0,,48218,True,0.0,0.63892,0.37217,0.43759,0.71343,1
+image_0088,Snowdrop,none,False,sam2.1_b,0.0,0.0,0,False,0.0,10.72102,0.0,,0.0,0
+image_0088,Snowdrop,owlv2_b,True,sam2.1_b,0.26457,0.73101,56040,True,23.80401,10.49819,0.89988,0.89988,1.0,1
+image_0104,Snowdrop,gdino_b,False,sam2.1_b,0.51612,0.95912,22597,True,6.9715,10.74228,0.82232,1.0,0.99937,2
+image_0104,Snowdrop,gdino_b,True,grabcut,0.56992,,20814,True,30.87795,0.31808,0.82129,1.0,0.99811,2
+image_0104,Snowdrop,gdino_b,True,sam2.1_b,0.56992,0.95671,22592,True,30.87795,11.6431,0.8225,1.0,0.99958,2
+image_0104,Snowdrop,gdino_b,True,sam2.1_s,0.56992,0.22878,22589,True,30.87795,6.38755,0.82189,1.0,0.99884,2
+image_0104,Snowdrop,gdino_b,True,sam2.1_t,0.56992,0.80079,22042,True,30.87795,5.40992,0.82137,1.0,0.99821,2
+image_0104,Snowdrop,none,False,grabcut,0.0,,44821,True,0.0,1.41676,0.30294,0.36837,0.99884,2
+image_0104,Snowdrop,none,False,sam2.1_b,0.0,0.0,33821,True,0.0,11.00229,0.42213,0.51311,0.99968,2
+image_0104,Snowdrop,owlv2_b,True,sam2.1_b,0.37444,0.00026,34567,True,30.24401,10.75769,0.41815,0.50817,1.0,2
+image_0108,Snowdrop,gdino_b,False,sam2.1_b,0.55663,0.91411,30040,True,7.60441,10.04855,1.0,1.0,1.0,2
+image_0108,Snowdrop,gdino_b,True,grabcut,0.59248,,33598,True,27.57398,0.3866,1.0,1.0,1.0,2
+image_0108,Snowdrop,gdino_b,True,sam2.1_b,0.59248,0.567,30028,True,27.57398,10.06203,1.0,1.0,1.0,2
+image_0108,Snowdrop,gdino_b,True,sam2.1_s,0.59248,0.95674,30165,True,27.57398,5.64268,1.0,1.0,1.0,2
+image_0108,Snowdrop,gdino_b,True,sam2.1_t,0.59248,0.89458,32878,True,27.57398,5.37374,1.0,1.0,1.0,2
+image_0108,Snowdrop,none,False,grabcut,0.0,,39474,True,0.0,0.63848,0.75522,0.75522,1.0,2
+image_0108,Snowdrop,none,False,sam2.1_b,0.0,0.76372,107742,True,0.0,10.61586,0.2613,0.47513,1.0,2
+image_0108,Snowdrop,owlv2_b,True,sam2.1_b,0.45795,0.90375,111583,True,28.14991,9.92932,0.25181,0.45787,1.0,2
+image_0119,Snowdrop,gdino_b,False,sam2.1_b,0.45422,0.8833,4273,True,11.86142,10.83109,0.77144,0.82718,0.93307,2
+image_0119,Snowdrop,gdino_b,True,grabcut,0.31745,,8497,False,34.13266,0.13812,0.33618,0.89144,0.57741,2
+image_0119,Snowdrop,gdino_b,True,sam2.1_b,0.31745,0.5119,13661,False,34.13266,10.49518,0.19838,0.38482,0.93173,2
+image_0119,Snowdrop,gdino_b,True,sam2.1_s,0.31745,0.70322,5682,True,34.13266,6.29492,0.59461,0.87808,0.92972,2
+image_0119,Snowdrop,gdino_b,True,sam2.1_t,0.31745,0.48701,7340,True,34.13266,5.52321,0.4382,0.80891,0.91834,2
+image_0119,Snowdrop,none,False,grabcut,0.0,,121664,True,0.0,1.20386,0.02424,0.08936,1.0,2
+image_0119,Snowdrop,none,False,sam2.1_b,0.0,0.26217,97563,True,0.0,10.64386,0.03186,0.11746,1.0,2
+image_0119,Snowdrop,owlv2_b,True,sam2.1_b,0.69929,0.97145,94880,True,28.52944,10.59396,0.03286,0.12114,1.0,2
+image_0124,Snowdrop,gdino_b,False,sam2.1_b,0.85941,0.62787,18905,True,9.56356,10.16027,0.89492,0.89492,1.0,1
+image_0124,Snowdrop,gdino_b,True,grabcut,0.55156,,18547,True,30.71188,0.23412,0.89457,0.89457,1.0,1
+image_0124,Snowdrop,gdino_b,True,sam2.1_b,0.55156,0.53378,18906,True,30.71188,10.10055,0.89492,0.89492,1.0,1
+image_0124,Snowdrop,gdino_b,True,sam2.1_s,0.55156,0.98463,17074,True,30.71188,5.99875,1.0,1.0,1.0,1
+image_0124,Snowdrop,gdino_b,True,sam2.1_t,0.55156,0.96093,17149,True,30.71188,5.22234,1.0,1.0,1.0,1
+image_0124,Snowdrop,none,False,grabcut,0.0,,16757,True,0.0,0.3005,1.0,1.0,1.0,1
+image_0124,Snowdrop,none,False,sam2.1_b,0.0,0.04177,48553,True,0.0,6.86743,0.29634,0.29634,1.0,1
+image_0124,Snowdrop,owlv2_b,True,sam2.1_b,0.43319,0.01162,43054,True,26.0793,9.66733,0.33382,0.33382,1.0,1
+image_0145,Snowdrop,gdino_b,False,sam2.1_b,0.50083,0.24744,6685,True,4.33323,6.73452,0.99935,1.0,0.99935,6
+image_0145,Snowdrop,gdino_b,True,grabcut,0.36627,,6313,True,17.86153,0.09542,0.9906,1.0,0.9906,6
+image_0145,Snowdrop,gdino_b,True,sam2.1_b,0.36627,0.22724,6668,True,17.86153,6.73079,0.99838,1.0,0.99838,6
+image_0145,Snowdrop,gdino_b,True,sam2.1_s,0.36627,0.9707,6501,True,17.86153,3.97236,0.95463,1.0,0.95463,6
+image_0145,Snowdrop,gdino_b,True,sam2.1_t,0.36627,0.97793,6552,True,17.86153,3.38953,0.99741,1.0,0.99741,6
+image_0145,Snowdrop,none,False,grabcut,0.0,,13460,True,0.0,0.42847,0.36159,0.94282,0.99008,6
+image_0145,Snowdrop,none,False,sam2.1_b,0.0,0.20896,61179,True,0.0,6.88746,0.08012,0.24775,1.0,6
+image_0145,Snowdrop,owlv2_b,True,sam2.1_b,0.26796,0.27237,65934,True,18.37553,6.70413,0.07162,0.22148,1.0,6
+image_0728,Sunflower,gdino_b,False,sam2.1_b,0.8949,0.84936,129687,True,11.20721,7.19817,0.99953,0.99955,0.99998,1
+image_0728,Sunflower,gdino_b,True,grabcut,0.90005,,131556,True,40.73098,0.29982,0.99339,0.99352,0.99987,1
+image_0728,Sunflower,gdino_b,True,sam2.1_b,0.90005,0.84896,129517,True,40.73098,13.49514,0.99953,0.99955,0.99998,1
+image_0728,Sunflower,gdino_b,True,sam2.1_s,0.90005,0.87758,129335,True,40.73098,4.13216,0.99952,0.99956,0.99996,1
+image_0728,Sunflower,gdino_b,True,sam2.1_t,0.90005,0.54096,129090,True,40.73098,3.53926,0.99955,0.99958,0.99997,1
+image_0728,Sunflower,none,False,grabcut,0.0,,130681,True,0.0,0.27963,0.99257,0.9927,0.99987,1
+image_0728,Sunflower,none,False,sam2.1_b,0.0,0.84862,129521,True,0.0,6.9851,0.99954,0.99956,0.99998,1
+image_0728,Sunflower,owlv2_b,True,sam2.1_b,0.40577,0.84915,129553,True,27.6224,7.46095,0.99953,0.99955,0.99998,1
+image_0756,Sunflower,gdino_b,False,sam2.1_b,0.86394,0.99092,95643,True,4.82947,6.88532,0.99956,1.0,0.99966,1
+image_0756,Sunflower,gdino_b,True,grabcut,0.88197,,99089,True,19.20853,0.34702,0.98669,0.98678,1.0,1
+image_0756,Sunflower,gdino_b,True,sam2.1_b,0.88197,0.97234,95686,True,19.20853,7.03201,0.99956,1.0,0.99966,1
+image_0756,Sunflower,gdino_b,True,sam2.1_s,0.88197,0.94844,95230,True,19.20853,4.20185,0.99914,1.0,0.99923,1
+image_0756,Sunflower,gdino_b,True,sam2.1_t,0.88197,0.97391,95361,True,19.20853,3.59333,0.99943,1.0,0.99952,1
+image_0756,Sunflower,none,False,grabcut,0.0,,98631,True,0.0,0.5117,0.98118,0.98137,0.99989,1
+image_0756,Sunflower,none,False,sam2.1_b,0.0,0.22235,131656,True,0.0,7.21436,0.68753,0.68836,0.9984,1
+image_0756,Sunflower,owlv2_b,True,sam2.1_b,0.14567,0.98327,96651,True,19.35666,7.25558,0.99812,0.99881,0.9994,1
+image_0758,Sunflower,gdino_b,False,sam2.1_b,0.89197,0.99018,103423,True,6.31143,6.84072,0.99896,1.0,0.99896,1
+image_0758,Sunflower,gdino_b,True,grabcut,0.90897,,104447,True,21.55256,0.15893,0.99968,0.99968,1.0,1
+image_0758,Sunflower,gdino_b,True,sam2.1_b,0.90897,0.99037,103431,True,21.55256,6.89046,0.99896,1.0,0.99896,1
+image_0758,Sunflower,gdino_b,True,sam2.1_s,0.90897,0.98495,102749,True,21.55256,3.99081,0.99767,1.0,0.99767,1
+image_0758,Sunflower,gdino_b,True,sam2.1_t,0.90897,0.93299,103896,True,21.55256,3.53934,0.99887,0.99997,0.99891,1
+image_0758,Sunflower,none,False,grabcut,0.0,,104449,True,0.0,0.14944,0.99961,0.99968,0.99993,1
+image_0758,Sunflower,none,False,sam2.1_b,0.0,0.0,105031,True,0.0,6.77035,0.99936,0.99975,0.99961,1
+image_0758,Sunflower,owlv2_b,True,sam2.1_b,0.30333,0.68915,151382,False,19.595,6.91881,0.66622,0.66622,1.0,1
+image_0759,Sunflower,gdino_b,False,sam2.1_b,0.8206,0.9943,118142,True,5.61867,6.88872,0.99936,0.99936,1.0,1
+image_0759,Sunflower,gdino_b,True,grabcut,0.8399,,116913,True,20.7496,0.14166,0.99935,0.99935,1.0,1
+image_0759,Sunflower,gdino_b,True,sam2.1_b,0.8399,0.99495,118160,True,20.7496,6.99716,0.99936,0.99936,1.0,1
+image_0759,Sunflower,gdino_b,True,sam2.1_s,0.8399,0.9918,118150,True,20.7496,4.0171,0.99932,0.99932,1.0,1
+image_0759,Sunflower,gdino_b,True,sam2.1_t,0.8399,0.99407,118307,True,20.7496,3.52208,0.99934,0.99934,1.0,1
+image_0759,Sunflower,none,False,grabcut,0.0,,116729,True,0.0,0.16701,0.99932,0.99932,1.0,1
+image_0759,Sunflower,none,False,sam2.1_b,0.0,0.53075,121113,True,0.0,6.82112,0.98522,0.98522,1.0,1
+image_0759,Sunflower,owlv2_b,True,sam2.1_b,0.27854,0.99557,118144,True,18.75082,7.10362,0.99942,0.99942,1.0,1
+image_0763,Sunflower,gdino_b,False,sam2.1_b,0.8589,0.96121,149859,True,6.21564,7.247,0.99926,1.0,0.99926,1
+image_0763,Sunflower,gdino_b,True,grabcut,0.88111,,152171,True,21.86356,0.19606,0.99763,0.99824,0.99939,1
+image_0763,Sunflower,gdino_b,True,sam2.1_b,0.88111,0.96124,149859,True,21.86356,8.36099,0.99925,1.0,0.99925,1
+image_0763,Sunflower,gdino_b,True,sam2.1_s,0.88111,0.96893,149275,True,21.86356,4.60446,0.99945,1.0,0.99945,1
+image_0763,Sunflower,gdino_b,True,sam2.1_t,0.88111,0.66355,149226,True,21.86356,3.8214,0.99936,1.0,0.99936,1
+image_0763,Sunflower,none,False,grabcut,0.0,,150572,True,0.0,0.41727,0.99888,0.99948,0.99939,1
+image_0763,Sunflower,none,False,sam2.1_b,0.0,0.9611,149877,True,0.0,13.38117,0.99926,1.0,0.99926,1
+image_0763,Sunflower,owlv2_b,True,sam2.1_b,0.38738,0.9613,149922,True,27.87827,12.32916,0.99927,1.0,0.99927,1
+image_0771,Sunflower,gdino_b,False,sam2.1_b,0.8691,0.93553,143780,False,6.63602,6.61438,0.99495,0.99813,0.99773,1
+image_0771,Sunflower,gdino_b,True,grabcut,0.88523,,155921,True,25.0003,0.19107,0.94105,0.9474,0.99385,1
+image_0771,Sunflower,gdino_b,True,sam2.1_b,0.88523,0.93332,144303,False,25.0003,6.91637,0.99513,0.99797,0.99809,1
+image_0771,Sunflower,gdino_b,True,sam2.1_s,0.88523,0.88361,144941,False,25.0003,4.09881,0.99502,0.99759,0.99836,1
+image_0771,Sunflower,gdino_b,True,sam2.1_t,0.88523,0.85982,146171,False,25.0003,3.47384,0.99603,0.99748,0.99949,1
+image_0771,Sunflower,none,False,grabcut,0.0,,144761,True,0.0,0.30252,0.90121,0.94796,0.94899,1
+image_0771,Sunflower,none,False,sam2.1_b,0.0,4e-05,56533,True,0.0,6.93226,0.0,0.0,0.0,1
+image_0771,Sunflower,owlv2_b,True,sam2.1_b,0.27887,0.95709,144155,False,18.7532,6.79072,0.9951,0.998,0.99802,1
+image_0488,Tigerlily,gdino_b,False,sam2.1_b,0.89109,0.94337,100933,True,7.73582,6.8199,0.99699,0.99699,1.0,1
+image_0488,Tigerlily,gdino_b,True,grabcut,0.87269,,92851,True,26.17,0.17023,0.99698,0.99699,0.99999,1
+image_0488,Tigerlily,gdino_b,True,sam2.1_b,0.87269,0.94258,100910,True,26.17,6.92813,0.99699,0.99699,1.0,1
+image_0488,Tigerlily,gdino_b,True,sam2.1_s,0.87269,0.98409,100813,True,26.17,4.09696,0.99699,0.99699,1.0,1
+image_0488,Tigerlily,gdino_b,True,sam2.1_t,0.87269,0.91181,96638,True,26.17,3.56214,0.99699,0.99699,1.0,1
+image_0488,Tigerlily,none,False,grabcut,0.0,,92808,True,0.0,0.24843,0.99691,0.99699,0.99992,1
+image_0488,Tigerlily,none,False,sam2.1_b,0.0,0.00777,109648,True,0.0,7.02801,0.98211,0.98211,1.0,1
+image_0488,Tigerlily,owlv2_b,True,sam2.1_b,0.41728,0.93849,101139,True,19.03896,6.84741,0.99699,0.99699,1.0,1
+image_0491,Tigerlily,gdino_b,False,sam2.1_b,0.35234,0.92531,2136,True,5.17619,7.06371,0.0,0.0,0.0,1
+image_0491,Tigerlily,gdino_b,True,grabcut,0.37665,,0,False,19.21483,0.01602,0.0,,0.0,0
+image_0491,Tigerlily,gdino_b,True,sam2.1_b,0.37665,0.87428,1963,True,19.21483,6.85822,0.0,0.0,0.0,1
+image_0491,Tigerlily,gdino_b,True,sam2.1_s,0.37665,0.92264,1956,True,19.21483,4.11478,0.0,0.0,0.0,1
+image_0491,Tigerlily,gdino_b,True,sam2.1_t,0.37665,0.91315,2015,True,19.21483,3.49591,0.0,0.0,0.0,1
+image_0491,Tigerlily,none,False,grabcut,0.0,,73407,True,0.0,0.53053,0.99725,1.0,0.99729,1
+image_0491,Tigerlily,none,False,sam2.1_b,0.0,0.90874,86272,True,0.0,6.81456,0.96811,0.96814,1.0,1
+image_0491,Tigerlily,owlv2_b,True,sam2.1_b,0.27555,0.89806,85307,True,19.18888,6.66435,0.98235,0.98239,1.0,1
+image_0492,Tigerlily,gdino_b,False,sam2.1_b,0.80274,0.97951,74697,True,10.44038,7.39007,0.82306,0.82322,1.0,1
+image_0492,Tigerlily,gdino_b,True,grabcut,0.80505,,67912,True,26.3438,0.40349,0.80642,0.80662,0.99991,1
+image_0492,Tigerlily,gdino_b,True,sam2.1_b,0.80505,0.98367,74868,True,26.3438,7.52607,0.82131,0.82148,1.0,1
+image_0492,Tigerlily,gdino_b,True,sam2.1_s,0.80505,0.97356,74552,True,26.3438,4.35483,0.82302,0.82318,1.0,1
+image_0492,Tigerlily,gdino_b,True,sam2.1_t,0.80505,0.70701,74474,True,26.3438,3.73614,0.82317,0.82334,1.0,1
+image_0492,Tigerlily,none,False,grabcut,0.0,,106180,True,0.0,0.49281,0.60824,0.6084,1.0,1
+image_0492,Tigerlily,none,False,sam2.1_b,0.0,0.03362,117607,True,0.0,6.95081,0.51289,0.51302,1.0,1
+image_0492,Tigerlily,owlv2_b,True,sam2.1_b,0.15681,0.68207,100758,True,19.84203,7.06649,0.60932,0.60948,1.0,1
+image_0513,Tigerlily,gdino_b,False,sam2.1_b,0.38919,0.79616,55059,True,4.82196,8.19712,0.9467,0.9477,1.0,1
+image_0513,Tigerlily,gdino_b,True,grabcut,0.38123,,49581,True,21.90903,0.54933,0.9843,0.9843,1.0,1
+image_0513,Tigerlily,gdino_b,True,sam2.1_b,0.38123,0.79369,55146,True,21.90903,8.7354,0.94348,0.94448,1.0,1
+image_0513,Tigerlily,gdino_b,True,sam2.1_s,0.38123,0.91736,54571,True,21.90903,6.45396,0.94748,0.94848,1.0,1
+image_0513,Tigerlily,gdino_b,True,sam2.1_t,0.38123,0.55063,50203,True,21.90903,4.77496,0.99441,0.99546,1.0,1
+image_0513,Tigerlily,none,False,grabcut,0.0,,53728,True,0.0,1.06696,0.93821,0.9392,1.0,1
+image_0513,Tigerlily,none,False,sam2.1_b,0.0,0.0,56252,True,0.0,6.8819,0.88996,0.8909,1.0,1
+image_0513,Tigerlily,owlv2_b,True,sam2.1_b,0.33593,0.94996,55440,True,19.91824,7.40701,0.93808,0.93907,1.0,1
+image_0515,Tigerlily,gdino_b,False,sam2.1_b,0.42276,0.57462,80211,True,6.54667,6.96733,0.99971,1.0,0.99976,1
+image_0515,Tigerlily,gdino_b,True,grabcut,0.56274,,78626,True,20.01236,0.22693,0.99898,0.99899,1.0,1
+image_0515,Tigerlily,gdino_b,True,sam2.1_b,0.56274,0.71291,80031,True,20.01236,6.89084,0.99973,1.0,0.99976,1
+image_0515,Tigerlily,gdino_b,True,sam2.1_s,0.56274,0.91025,77458,True,20.01236,4.04431,0.99982,1.0,0.99984,1
+image_0515,Tigerlily,gdino_b,True,sam2.1_t,0.56274,0.03744,67076,True,20.01236,3.58747,0.87698,1.0,0.877,1
+image_0515,Tigerlily,none,False,grabcut,0.0,,134201,True,0.0,0.90802,0.61886,0.63359,0.96386,1
+image_0515,Tigerlily,none,False,sam2.1_b,0.0,0.0,55756,True,0.0,6.75702,0.0,0.0,0.0,1
+image_0515,Tigerlily,owlv2_b,True,sam2.1_b,0.51865,0.0,128327,True,19.20378,6.88885,0.67727,0.6773,1.0,1
+image_0521,Tigerlily,gdino_b,False,sam2.1_b,0.42334,0.94556,85838,True,7.46983,14.05875,0.98302,0.99546,0.98764,1
+image_0521,Tigerlily,gdino_b,True,grabcut,0.40276,,71834,True,28.18792,0.57024,0.98715,0.99575,0.99153,1
+image_0521,Tigerlily,gdino_b,True,sam2.1_b,0.40276,0.94867,85764,True,28.18792,14.07951,0.98294,0.99546,0.98755,1
+image_0521,Tigerlily,gdino_b,True,sam2.1_s,0.40276,0.92781,85103,True,28.18792,8.93566,0.98365,0.99506,0.98867,1
+image_0521,Tigerlily,gdino_b,True,sam2.1_t,0.40276,0.86249,85315,True,28.18792,6.85554,0.98317,0.99433,0.9889,1
+image_0521,Tigerlily,none,False,grabcut,0.0,,76961,True,0.0,0.82697,0.98587,0.98887,0.99713,1
+image_0521,Tigerlily,none,False,sam2.1_b,0.0,0.71419,107014,True,0.0,15.34222,0.82923,0.83303,0.99477,1
+image_0521,Tigerlily,owlv2_b,True,sam2.1_b,0.29665,0.66714,133989,True,28.87883,13.90087,0.65006,0.65117,0.99768,1
+image_0569,Tulip,gdino_b,False,sam2.1_b,0.90016,0.84596,51778,True,5.71054,15.06269,1.0,1.0,1.0,1
+image_0569,Tulip,gdino_b,True,grabcut,0.89942,,51975,True,19.58416,0.43572,1.0,1.0,1.0,1
+image_0569,Tulip,gdino_b,True,sam2.1_b,0.89942,0.9961,51784,True,19.58416,8.0036,1.0,1.0,1.0,1
+image_0569,Tulip,gdino_b,True,sam2.1_s,0.89942,0.99184,51481,True,19.58416,8.5607,1.0,1.0,1.0,1
+image_0569,Tulip,gdino_b,True,sam2.1_t,0.89942,0.95504,51332,True,19.58416,7.32265,1.0,1.0,1.0,1
+image_0569,Tulip,none,False,grabcut,0.0,,51843,True,0.0,0.58409,1.0,1.0,1.0,1
+image_0569,Tulip,none,False,sam2.1_b,0.0,0.08841,12072,True,0.0,14.12416,0.0,0.0,0.0,1
+image_0569,Tulip,owlv2_b,True,sam2.1_b,0.48287,0.9875,51822,True,28.87674,14.35569,1.0,1.0,1.0,1
+image_0580,Tulip,gdino_b,False,sam2.1_b,0.56059,0.98485,87737,True,6.77835,7.25602,0.68749,1.0,0.68749,1
+image_0580,Tulip,gdino_b,True,grabcut,0.57536,,96438,True,22.6396,0.31571,0.74114,1.0,0.74114,1
+image_0580,Tulip,gdino_b,True,sam2.1_b,0.57536,0.98433,87772,True,22.6396,6.99554,0.68782,1.0,0.68782,1
+image_0580,Tulip,gdino_b,True,sam2.1_s,0.57536,0.97125,89054,True,22.6396,4.1702,0.70132,1.0,0.70132,1
+image_0580,Tulip,gdino_b,True,sam2.1_t,0.57536,0.52145,89526,True,22.6396,3.64621,0.70186,1.0,0.70186,1
+image_0580,Tulip,none,False,grabcut,0.0,,137269,True,0.0,0.18309,0.99928,0.99934,0.99994,1
+image_0580,Tulip,none,False,sam2.1_b,0.0,0.61304,132084,True,0.0,6.92932,0.99996,1.0,0.99997,1
+image_0580,Tulip,owlv2_b,True,sam2.1_b,0.66166,0.62228,132365,True,19.09407,7.04838,0.99998,1.0,0.99999,1
+image_0584,Tulip,gdino_b,False,sam2.1_b,0.73049,0.98444,87432,True,6.81831,8.26432,0.99851,1.0,0.99967,1
+image_0584,Tulip,gdino_b,True,grabcut,0.60251,,86104,True,24.60647,0.31403,0.99933,1.0,0.99933,1
+image_0584,Tulip,gdino_b,True,sam2.1_b,0.60251,0.95893,87470,True,24.60647,10.77519,0.99851,1.0,0.99967,1
+image_0584,Tulip,gdino_b,True,sam2.1_s,0.60251,0.96951,87147,True,24.60647,4.17319,0.99851,1.0,0.99967,1
+image_0584,Tulip,gdino_b,True,sam2.1_t,0.60251,0.96723,87058,True,24.60647,6.47103,0.99781,1.0,0.99898,1
+image_0584,Tulip,none,False,grabcut,0.0,,86270,True,0.0,0.18809,0.99948,0.99993,0.99956,1
+image_0584,Tulip,none,False,sam2.1_b,0.0,0.93559,88171,True,0.0,7.02042,0.99879,0.99996,1.0,1
+image_0584,Tulip,owlv2_b,True,sam2.1_b,0.58062,0.9882,93704,True,20.62828,7.09495,0.931,0.93208,1.0,1
+image_0589,Tulip,gdino_b,False,sam2.1_b,0.38857,0.0,21376,True,6.27382,6.82729,0.99608,1.0,0.99978,1
+image_0589,Tulip,gdino_b,True,grabcut,0.53979,,22865,True,19.87345,0.15349,0.9104,0.91378,1.0,1
+image_0589,Tulip,gdino_b,True,sam2.1_b,0.53979,0.89222,23187,True,19.87345,6.77303,0.90544,0.9088,1.0,1
+image_0589,Tulip,gdino_b,True,sam2.1_s,0.53979,0.89948,22945,True,19.87345,3.98587,0.91204,0.91568,0.9997,1
+image_0589,Tulip,gdino_b,True,sam2.1_t,0.53979,0.90927,22957,True,19.87345,3.54784,0.91081,0.91444,0.9997,1
+image_0589,Tulip,none,False,grabcut,0.0,,23082,True,0.0,0.32991,0.90825,0.91162,1.0,1
+image_0589,Tulip,none,False,sam2.1_b,0.0,0.04782,23378,True,0.0,8.38718,0.90428,0.9077,0.99993,1
+image_0589,Tulip,owlv2_b,True,sam2.1_b,0.32317,0.0,23363,True,19.13077,7.24983,0.90283,0.90618,1.0,1
+image_0590,Tulip,gdino_b,False,sam2.1_b,0.88744,0.96165,62814,True,6.66066,7.04202,1.0,1.0,1.0,1
+image_0590,Tulip,gdino_b,True,grabcut,0.89464,,65247,True,23.10502,0.25091,0.99099,0.99099,1.0,1
+image_0590,Tulip,gdino_b,True,sam2.1_b,0.89464,0.96744,62815,True,23.10502,7.20408,1.0,1.0,1.0,1
+image_0590,Tulip,gdino_b,True,sam2.1_s,0.89464,0.99168,62160,True,23.10502,4.19304,0.99982,1.0,0.99982,1
+image_0590,Tulip,gdino_b,True,sam2.1_t,0.89464,0.98902,62098,True,23.10502,3.6259,0.99984,1.0,0.99984,1
+image_0590,Tulip,none,False,grabcut,0.0,,64941,True,0.0,0.38733,0.98891,0.98891,1.0,1
+image_0590,Tulip,none,False,sam2.1_b,0.0,0.00046,62400,True,0.0,7.18456,1.0,1.0,1.0,1
+image_0590,Tulip,owlv2_b,True,sam2.1_b,0.51361,0.96498,62874,True,19.30422,7.00818,1.0,1.0,1.0,1
+image_0591,Tulip,gdino_b,False,sam2.1_b,0.60923,0.97979,44555,True,6.79537,7.09191,0.99075,0.99075,1.0,1
+image_0591,Tulip,gdino_b,True,grabcut,0.44555,,44558,True,21.25163,0.18147,0.99038,0.99038,1.0,1
+image_0591,Tulip,gdino_b,True,sam2.1_b,0.44555,0.96743,44526,True,21.25163,6.68098,0.99107,0.99107,1.0,1
+image_0591,Tulip,gdino_b,True,sam2.1_s,0.44555,0.9171,44305,True,21.25163,4.16796,0.99112,0.99112,1.0,1
+image_0591,Tulip,gdino_b,True,sam2.1_t,0.44555,0.95896,44368,True,21.25163,3.76851,0.99141,0.99141,1.0,1
+image_0591,Tulip,none,False,grabcut,0.0,,53334,True,0.0,0.23219,0.80207,0.80207,1.0,1
+image_0591,Tulip,none,False,sam2.1_b,0.0,0.0,53918,True,0.0,6.79214,0.79271,0.79271,1.0,1
+image_0591,Tulip,owlv2_b,True,sam2.1_b,0.59685,0.0,54732,True,18.65982,7.2222,0.78166,0.78166,1.0,1
+image_1201,Windflower,gdino_b,False,sam2.1_b,0.88147,0.88301,120619,True,5.30084,7.07365,1.0,1.0,1.0,1
+image_1201,Windflower,gdino_b,True,grabcut,0.89293,,121157,True,19.12719,0.12475,1.0,1.0,1.0,1
+image_1201,Windflower,gdino_b,True,sam2.1_b,0.89293,0.88048,120624,True,19.12719,7.14228,1.0,1.0,1.0,1
+image_1201,Windflower,gdino_b,True,sam2.1_s,0.89293,0.67403,120600,True,19.12719,4.20043,1.0,1.0,1.0,1
+image_1201,Windflower,gdino_b,True,sam2.1_t,0.89293,0.17365,120733,True,19.12719,3.56104,1.0,1.0,1.0,1
+image_1201,Windflower,none,False,grabcut,0.0,,121907,True,0.0,0.2039,1.0,1.0,1.0,1
+image_1201,Windflower,none,False,sam2.1_b,0.0,0.46631,258773,True,0.0,6.96015,0.46162,0.46162,1.0,1
+image_1201,Windflower,owlv2_b,True,sam2.1_b,0.61423,0.99151,120632,True,19.08671,7.2958,1.0,1.0,1.0,1
+image_1207,Windflower,gdino_b,False,sam2.1_b,0.88049,0.9555,119671,True,5.02208,6.9771,1.0,1.0,1.0,1
+image_1207,Windflower,gdino_b,True,grabcut,0.89014,,125731,True,20.34856,0.19613,0.96783,0.96783,1.0,1
+image_1207,Windflower,gdino_b,True,sam2.1_b,0.89014,0.57529,119684,True,20.34856,7.08065,1.0,1.0,1.0,1
+image_1207,Windflower,gdino_b,True,sam2.1_s,0.89014,0.95452,119511,True,20.34856,4.99777,1.0,1.0,1.0,1
+image_1207,Windflower,gdino_b,True,sam2.1_t,0.89014,0.79439,121726,True,20.34856,3.50903,0.98565,0.98565,1.0,1
+image_1207,Windflower,none,False,grabcut,0.0,,125770,True,0.0,0.24585,0.96759,0.96759,1.0,1
+image_1207,Windflower,none,False,sam2.1_b,0.0,0.45731,125074,True,0.0,7.08634,0.96663,0.96663,1.0,1
+image_1207,Windflower,owlv2_b,True,sam2.1_b,0.65146,0.56919,119710,True,19.16422,7.59869,1.0,1.0,1.0,1
+image_1213,Windflower,gdino_b,False,sam2.1_b,0.89324,0.99329,112593,True,7.22802,7.06369,1.0,1.0,1.0,1
+image_1213,Windflower,gdino_b,True,grabcut,0.89508,,112584,True,24.75137,0.10028,1.0,1.0,1.0,1
+image_1213,Windflower,gdino_b,True,sam2.1_b,0.89508,0.98239,112593,True,24.75137,7.03067,1.0,1.0,1.0,1
+image_1213,Windflower,gdino_b,True,sam2.1_s,0.89508,0.08902,112145,True,24.75137,4.28316,1.0,1.0,1.0,1
+image_1213,Windflower,gdino_b,True,sam2.1_t,0.89508,0.96491,112521,True,24.75137,3.59589,1.0,1.0,1.0,1
+image_1213,Windflower,none,False,grabcut,0.0,,112696,True,0.0,0.13804,1.0,1.0,1.0,1
+image_1213,Windflower,none,False,sam2.1_b,0.0,0.24927,152939,True,0.0,7.37069,0.72896,0.72896,1.0,1
+image_1213,Windflower,owlv2_b,True,sam2.1_b,0.56286,0.98571,112596,True,18.96472,7.51946,1.0,1.0,1.0,1
+image_1216,Windflower,gdino_b,False,sam2.1_b,0.75644,0.98318,141724,True,5.59141,7.00619,0.99999,1.0,0.99999,1
+image_1216,Windflower,gdino_b,True,grabcut,0.7616,,172259,True,22.71314,0.33178,0.85428,0.85428,1.0,1
+image_1216,Windflower,gdino_b,True,sam2.1_b,0.7616,0.90016,141731,True,22.71314,6.94638,0.99999,1.0,0.99999,1
+image_1216,Windflower,gdino_b,True,sam2.1_s,0.7616,0.99229,140842,True,22.71314,4.09382,0.99991,1.0,0.99991,1
+image_1216,Windflower,gdino_b,True,sam2.1_t,0.7616,0.94386,141465,True,22.71314,3.60106,0.99998,1.0,0.99998,1
+image_1216,Windflower,none,False,grabcut,0.0,,146704,True,0.0,0.22551,0.99787,0.9985,0.99936,1
+image_1216,Windflower,none,False,sam2.1_b,0.0,0.57206,141717,True,0.0,6.80467,0.99999,1.0,0.99999,1
+image_1216,Windflower,owlv2_b,True,sam2.1_b,0.61349,0.86915,141740,True,19.38754,7.07555,0.99999,1.0,0.99999,1
+image_1227,Windflower,gdino_b,False,sam2.1_b,0.88713,0.99657,68735,True,5.05205,6.92039,1.0,1.0,1.0,1
+image_1227,Windflower,gdino_b,True,grabcut,0.89454,,69967,True,19.73923,0.14042,1.0,1.0,1.0,1
+image_1227,Windflower,gdino_b,True,sam2.1_b,0.89454,0.99612,68736,True,19.73923,6.83302,1.0,1.0,1.0,1
+image_1227,Windflower,gdino_b,True,sam2.1_s,0.89454,0.9947,68541,True,19.73923,3.9884,1.0,1.0,1.0,1
+image_1227,Windflower,gdino_b,True,sam2.1_t,0.89454,0.95733,68835,True,19.73923,3.66706,0.99993,1.0,0.99993,1
+image_1227,Windflower,none,False,grabcut,0.0,,69978,True,0.0,0.29715,1.0,1.0,1.0,1
+image_1227,Windflower,none,False,sam2.1_b,0.0,0.0,60251,True,0.0,7.07046,0.0,0.0,0.0,1
+image_1227,Windflower,owlv2_b,True,sam2.1_b,0.47269,0.99711,68700,True,19.31573,6.87766,1.0,1.0,1.0,1
+image_1232,Windflower,gdino_b,False,sam2.1_b,0.58219,0.99526,80183,True,6.72216,6.90195,0.75071,1.0,0.75071,1
+image_1232,Windflower,gdino_b,True,grabcut,0.62463,,86790,True,22.53736,0.17035,0.82041,1.0,0.82041,1
+image_1232,Windflower,gdino_b,True,sam2.1_b,0.62463,0.99595,80218,True,22.53736,6.84776,0.75077,1.0,0.75077,1
+image_1232,Windflower,gdino_b,True,sam2.1_s,0.62463,0.86021,80136,True,22.53736,4.09325,0.75129,1.0,0.75129,1
+image_1232,Windflower,gdino_b,True,sam2.1_t,0.62463,0.93324,80217,True,22.53736,3.59897,0.75129,1.0,0.75129,1
+image_1232,Windflower,none,False,grabcut,0.0,,117733,True,0.0,0.30913,0.99836,0.9988,1.0,1
+image_1232,Windflower,none,False,sam2.1_b,0.0,0.0,118785,True,0.0,6.81108,0.99611,0.99661,0.99994,1
+image_1232,Windflower,owlv2_b,True,sam2.1_b,0.62386,4e-05,118601,True,18.93404,6.90221,0.99523,0.99572,0.99994,1
